@@ -1,45 +1,19 @@
 .container-full{
 z-index: 99;
-
-height: 100%;
 width: 100%;
 }
-
-.cont{
-    background: rgb(7, 7, 32);
-    width: auto;
-    height: auto;
-    margin: 0;
-    padding: 0;
-} 
-
 app-navbar{
 z-index: 99;
 }
-.cont video{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    min-width: inherit;
-    min-height:inherit;
-    z-index: -1;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    -webkit-transition: 1s opacity;
-    transition: 1s opacity;
-}
-
 .cover-image{
      background-image: url("https://img.freepik.com/premium-photo/glass-globe-ball-with-tree-growing-green-nature-blur-background-eco-earth-day-concept_34152-3373.jpg?w=996");
      background-size: cover;
-      
 }
 
 .content{
     background: rgb(7, 7, 32, .7);
     height: 90vh;
 }
-
 .content h1{
     color: #fff;
     width: 30%;
@@ -50,16 +24,26 @@ z-index: 99;
     font-family: CooperLtBT-Regular, Helvetica, sans-serif;
     line-height: 79.8px;
 }
-
 .content button{
     margin-left: 20%;
     border: none;
     margin-bottom: 50px;
 }
-
 .btn-2{
     padding: 10px 30px;
     color: rgb(17, 66, 17);
     border-radius: 7px;
     font-size: 20px;
+}
+.descript-1{
+   padding-top: 100px;
+   padding-bottom: 30px;
+   text-align:center;
+}
+
+.des{
+    padding-bottom: 50px ;
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
 }
