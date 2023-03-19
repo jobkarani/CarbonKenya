@@ -71,7 +71,7 @@ header{
     }
   
   .nav-link:hover {
-    color:rgb(17, 66, 17);
+    color: yellowgreen;
     cursor: pointer;
     text-decoration: underline;
     transition: .5s ease-in-out;
@@ -79,7 +79,8 @@ header{
   }
   
   .active-link{
-    color: rgb(17, 66, 17);
+    color: yellowgreen;
+    text-decoration:underline;
   }
 
   .contact{
