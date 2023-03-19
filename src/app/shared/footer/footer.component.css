@@ -89,6 +89,7 @@ ul {
   color: #fff;
   font-size: 16px;
   margin-right: 15px;
+  /* border-radius: 2px solid #fff; */
 }
 .footer-social-icon i {
   height: 40px;
@@ -98,7 +99,8 @@ ul {
   border-radius: 50%;
 }
 .facebook-bg{
-  background: #008f96;
+  background: #04483c;
+  border-radius: 2px solid #fff;
 }
 
 .footer-widget-heading h3 {
