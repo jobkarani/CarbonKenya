@@ -169,17 +169,17 @@ ul {
   transform: rotate(-6deg);
 }
 .copyright-area{
-  background: #fff;
+  background: #03322a;
   padding: 25px 0;
 }
 .copyright-text p {
   margin: 0;
   font-size: 14px;
-  color: #000;
+  color: #fff;
  
 }
 .copyright-text p a{
-  color: #000;
+  color: #fff;
   text-decoration: none;
 }
 .footer-menu li {
@@ -187,11 +187,11 @@ ul {
   margin-left: 20px;
 }
 .footer-menu li:hover a{
-  color: #03322a;
+  color: #000;
 }
 .footer-menu li a {
   font-size: 14px;
-  color: #000;
+  color: #fff;
   text-decoration: none;
 }
 
