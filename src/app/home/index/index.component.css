@@ -39,6 +39,7 @@ z-index: 99;
    padding-top: 100px;
    padding-bottom: 30px;
    text-align:center;
+   color: rgb(17, 66, 17);
 }
 
 .des{
@@ -46,4 +47,27 @@ z-index: 99;
     text-align: center;
     width: 50%;
     margin-left: 25%;
+}
+
+.all{
+    display: flex;
+    padding: 0 10%;
+    padding-bottom: 50px;
+}
+
+.one{
+    text-align: center;
+    width: 60%;
+    padding: 10px 30px;
+}
+
+.one img{
+    height: 22vh;
+    width: 10vw;
+}
+.one h3{
+    padding: 10px 0;
+}
+.one h4{
+    color: grey;
 }
