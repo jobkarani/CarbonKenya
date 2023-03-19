@@ -12,6 +12,7 @@ import { HomeRoutingModule } from './home-routing.module';
     HomeComponent,
     IndexComponent
   ],
+  
   imports: [
     CommonModule,
     SharedModule,
