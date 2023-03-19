@@ -15,6 +15,12 @@ const routes: Routes = [
     canActivate: [],
     loadChildren: ()=> import('./about/about.module').then((m)=>m.AboutModule)
   },
+
+  {
+    path: 'market-place',
+    canActivate: [],
+    loadChildren: ()=> import('./market-place/market-place.module').then((m)=>m.MarketPlaceModule)
+  },
   
 ];
 
