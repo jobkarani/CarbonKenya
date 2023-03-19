@@ -8,31 +8,49 @@ header{
     padding: 0 0;
     margin: 0;
     min-width: 100%;
+    display: flex;
+    width: 100%;
+  }
+
+  .flexa{
+    width: 60%;
+    margin-top: 5px;
+  }
+
+  .logo{
+    padding-top: 15px;
+    width: 15%;
+  }
+
+  .logo img{
+    float: right;
+    height: 8vh;
+    width: 4vw;
   }
   
   .menu{
-    padding: 20px 10%;
+    padding: 20px 5%;
     justify-content: space-around;
     background:transparent;
+    /* background-color: red; */
   }
   
   .menu ul{
     padding: 0;
     margin: 0;
+    display: flex;
   }
   
   .menu ul li{
     list-style-type: none;
-    font-size: 12px;
+    font-size: 15px;
     color: white;
-    display: inline-block;
-    line-height: 21.6px;
-    letter-spacing: 3.6px; 
-    font-weight:500;
+    line-height: 18px;
+    letter-spacing: normal; 
   }
   
   .li{
-    margin-left: 8%;
+    margin-left: 5%;
   }
   
   .menu ul li:hover{
@@ -43,22 +61,42 @@ header{
   .nav-link{
     color: #fff; 
     text-decoration: none;
-    font-weight: 800;
-    font-size: small;
+    font-size: 18px;
     padding: 8px 10px;
-    line-height: 1em;
-    font-size: 15px;
+    line-height: 18px;
+    text-align: left;
     transition: color .25s;
+    font-style: Roobert-Medium, Helvetica, Verdana, sans-serif;
     }
   
   .nav-link:hover {
     color:rgb(206, 128, 76);
-    font-weight: 800;
     cursor: pointer;
   }
   
   .active-link{
     color: #FFC93C;
+  }
+
+  .contact{
+    margin-right: 20%;
+    margin-top: 30px;
+    width: 25%;
+  }
+
+  .contact button{
+    float: right;
+    border: none;
+  }
+
+  .btn-1{
+    text-align: center;
+    padding: 10px 50px;
+    border-radius: 2em;
+    background-color: rgb(17, 66, 17);
+    color: #fff;
+    font-size: 20px;
+
   }
   @media only screen and (max-width: 850px) {
   

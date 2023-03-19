@@ -9,6 +9,13 @@ const routes: Routes = [
     canActivate: [],
     loadChildren: ()=> import('./home/home.module').then((m)=>m.HomeModule)
   },
+
+  {
+    path: 'about',
+    canActivate: [],
+    loadChildren: ()=> import('./about/about.module').then((m)=>m.AboutModule)
+  },
+  
 ];
 
 @NgModule({
