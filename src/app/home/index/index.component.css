@@ -24,7 +24,9 @@ z-index: 99;
     font-family: CooperLtBT-Regular, Helvetica, sans-serif;
     line-height: 79.8px;
 }
-.content button{
+.content a{
+    text-decoration: none;
+    background-color: #fff;
     margin-left: 20%;
     border: none;
     margin-bottom: 50px;
@@ -41,6 +43,7 @@ z-index: 99;
    text-align:center;
    color: rgb(17, 66, 17);
 }
+
 
 .des{
     padding-bottom: 50px ;
