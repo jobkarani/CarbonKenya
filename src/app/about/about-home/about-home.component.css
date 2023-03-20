@@ -1,3 +1,101 @@
+.top-banner{
+    background-image: url("https://img.freepik.com/premium-photo/3d-rendering-high-speed-traveling-technology-wind-turbines-forest-landscape_533392-372.jpg?w=826");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+}
+
+.bg{
+    background: rgb(7, 7, 32, .6);
+    height: 70vh;
+    padding: 10% 0;
+}
+
+.p-one{
+    color: #fff;
+    font-size: 34px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.p-two{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 300;
+    padding: 0 20%;
+    letter-spacing: 2px;
+}
+
+.mission{
+    padding: 2% 8%;
+}
+
+.miss-head{
+    font-size: 34px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.miss-desc{
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+.value{
+    background: rgb(7, 7, 32);
+}
+
+.h-values{
+    font-size: 34px;
+    font-weight: 700;
+    /* letter-spacing: px; */
+    color: #fff;
+    padding: 2% 8%;
+}
+
+.values{
+    padding-bottom: 20px;
+    display: flex;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (408px);
+    grid-template-columns: repeat(3, 408px);
+    justify-content: center;
+    grid-gap: 25px;
+}
+
+.val{
+    margin: 2%;
+}
+
+.val img{
+    width: 10%;
+    align-items: left;
+}
+
+.val-head{
+    font-size: 26px;
+    font-weight: 600;
+    color: yellowgreen;
+    margin-top: 5%;
+}
+
+.val-desc{
+    font-size: 22px;
+    color: #fff;
+}
+
+.team{
+    padding: 2% 10%;
+}
+
+.team-head{
+    font-size: 34px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
 .all{
     margin: 5% 2%;
 }
