@@ -8,7 +8,7 @@ app-navbar{
 .page-texts{
     background-image: url("https://img.freepik.com/free-vector/hexagonal-shapes-empty-wide-banner-abstract-design_1017-25916.jpg?w=826&t=st=1679292488~exp=1679293088~hmac=befba6ab8034ca3e9608e29d9970a5f67ec6642eb671454e5d6bf7979d2c876f");
     background-size: cover;
-    height: 80vh;
+    height: auto;
 }
 .page-texts p{
     margin-left: 7%;
@@ -65,4 +65,99 @@ app-navbar{
 .procedure-card i{
     font-size: 30px;
     padding-top: 50px;
+}
+
+.carbon-projects h1{
+    margin-left: 7%;
+    font-size: 52px;
+    letter-spacing: -1.56px;
+    text-align: start;
+    line-height: 67.6px;
+    text-align: start;
+    letter-spacing: normal;
+}
+.carbon-projects p{
+    margin-left: 7%;
+    font-size: 32px;
+    letter-spacing: -1.56px;
+    text-align: start;
+    line-height: 67.6px;
+    text-align: start;
+    letter-spacing: normal;
+}
+.carbon-projects h2{
+    border-radius: 2px solid black;
+    margin-left: 70%;
+    font-size: 22px;
+    letter-spacing: -1.56px;
+    text-align: start;
+    line-height: 67.6px;
+    text-align: start;
+    letter-spacing: normal;
+}
+.carbon-projects h2 a{
+    text-decoration: none;
+}
+.carbon-projects span{
+    color: #04483c;
+    text-decoration: none;
+}
+.carbon-projects span:hover{
+    color: rgb(99, 206, 134);
+}
+/* .carbon-projects {
+    margin-left: 3%;
+} */
+.all-lists{
+    display: flex;
+    /* flex-direction: row; */
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (208px);
+    grid-template-columns: repeat(5, 208px);
+    justify-content: center;
+    grid-gap: 15px;
+}
+.all-lists .p{
+    font-size: 14px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 0 15px 0 15px;
+}
+.one{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-top: 5%;
+}
+.image img{
+    width: 30vw;
+    height: 40vh;
+    margin: 20px;
+    border-radius: 20px;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+}
+.details p{
+    margin-left: 0;
+    margin-bottom: 0;
+}
+.project{
+    color: #000;
+    font-weight: bolder;
+}
+.icon{
+    background-color: #114211;
+    border-radius: 20px;
+    width: 25vw;
+    padding-left: 40px;
+    color: #fff;
+    height: 60px;
+}
+.href{
+    margin-top: 0;
 }
