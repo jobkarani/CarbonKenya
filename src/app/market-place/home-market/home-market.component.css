@@ -1,0 +1,68 @@
+.market-container{
+    z-index: 99;
+    width: 100%;
+}
+app-navbar{
+    z-index: 99;    
+}
+.page-texts{
+    background-image: url("https://img.freepik.com/free-vector/hexagonal-shapes-empty-wide-banner-abstract-design_1017-25916.jpg?w=826&t=st=1679292488~exp=1679293088~hmac=befba6ab8034ca3e9608e29d9970a5f67ec6642eb671454e5d6bf7979d2c876f");
+    background-size: cover;
+    height: 80vh;
+}
+.page-texts p{
+    margin-left: 7%;
+    /* margin-top: 10%; */
+    text-align: start;
+    font-family: '__fontInter_Fallback_e85ed4';
+}
+.mrkt{
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: normal;
+    padding-top: 5%;
+    font-weight: 700;
+}
+.place{
+    text-transform: capitalize;
+    font-size: 52px;
+    font-weight: 700;
+    letter-spacing: -1.56px;
+    line-height: 67.6px;
+}
+.procedure-card{
+    display: flex;
+    flex-direction: row;
+    margin: 7%;
+    margin-top: 3%;
+    background-color: #d8e4e2;
+    border-radius: 10px;
+}
+.details{
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.details h2{
+    font-size: 22px;
+    padding: 8%;
+    padding-bottom: 0;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: start;
+}
+.details p{
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: normal;
+    text-align: start;
+}
+.details span{
+    color: #04483c;
+    text-decoration: none;
+}
+.procedure-card i{
+    font-size: 30px;
+    padding-top: 50px;
+}
