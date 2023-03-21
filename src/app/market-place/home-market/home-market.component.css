@@ -141,10 +141,12 @@ app-navbar{
 .details{
     display: flex;
     flex-direction: column;
+    gap: 0;
 }
 .details p{
     margin-left: 0;
     margin-bottom: 0;
+    font-size: 20px;
 }
 .project{
     color: #000;
@@ -153,11 +155,29 @@ app-navbar{
 .icon{
     background-color: #114211;
     border-radius: 20px;
-    width: 25vw;
-    padding-left: 40px;
+    width: 13vw;
+    padding-left: 30px;
+    padding-top: 0;
+    padding-bottom: 40px;
     color: #fff;
-    height: 60px;
+    height: 50px;
+}
+.location{
+    font-size: 30px;
+    padding-bottom: 0;
+    padding-top: 40px;
+}
+.type{
+    padding-top: 0;
+    margin-top: 0;
 }
 .href{
     margin-top: 0;
+    
+}
+.href a{
+    text-decoration: none;
+}
+.href a:hover{
+    color: #114211;
 }
