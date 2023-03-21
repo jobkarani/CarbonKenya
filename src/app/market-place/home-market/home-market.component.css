@@ -119,17 +119,21 @@ app-navbar{
     grid-gap: 15px;
 }
 .all-lists .p{
-    font-size: 14px;
+    font-size: 20px;
+    font-weight: bold;
     border: 1px solid black;
+    text-align: center;
     border-radius: 20px;
-    padding: 0 15px 0 15px;
+    width: 220px;
+    height: 50px;
+    padding-bottom: 70px;
 }
 .one{
     display: flex;
     flex-direction: row;
     margin-left: 100px;
     border: 2px solid black;
-    width: 70%;
+    width: 90%;
     border-radius: 20px;
     margin-top: 5%;
 }
@@ -158,10 +162,9 @@ app-navbar{
     border-radius: 20px;
     width: 13vw;
     padding-left: 30px;
-    padding-top: 0;
-    padding-bottom: 40px;
+    text-align: center;
     color: #fff;
-    height: 50px;
+    height: 62px;
 }
 .location{
     font-size: 30px;
@@ -181,4 +184,67 @@ app-navbar{
 }
 .href a:hover{
     color: #114211;
+}
+.carbon-project-list{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.list{
+    width: 70%;
+}
+.sign-up{
+    width: 30%;
+}
+.card-1{
+    background-color: aqua;
+    margin: 7%;
+    margin-top: 11%;
+    border-radius: 10px;
+    padding: 0 20px 20px 0;
+}
+.card-2{
+    background-color: aqua;
+    margin: 7%;
+    margin-top: 11%;
+    border-radius: 10px;
+    padding: 0 20px 20px 0;
+}
+.card-3{
+    background-color: aqua;
+    margin: 7%;
+    margin-top: 11%;
+    border-radius: 10px;
+    padding: 0 20px 20px 0;
+}
+
+.hr-p{
+    padding-bottom: 5%;
+    border-bottom: 2px solid black;
+}
+.hr-p a{
+    font-size: 25px;
+    text-decoration: none;
+    text-align: start;
+}
+.hr-p a:hover{
+    color: #000;
+}
+.card-1 .h3{
+    font-size: 20px;
+    line-height: normal;
+    text-align: start;
+    padding-bottom: 10px;
+}
+.card-2 .h3{
+    font-size: 20px;
+    line-height: normal;
+    text-align: start;
+    padding-bottom: 10px;
+}
+.card-3 .h3{
+    font-size: 20px;
+    line-height: normal;
+    text-align: start;
+    padding-bottom: 10px;
 }
