@@ -57,19 +57,180 @@ z-index: 99;
     padding-bottom: 50px;
 }
 
-.one{
+.ones{
     text-align: center;
     width: 60%;
     padding: 10px 30px;
 }
 
-.one img{
+.ones img{
     height: 22vh;
     width: 10vw;
 }
-.one h3{
+.ones h3{
     padding: 10px 0;
 }
-.one h4{
+.ones h4{
     color: grey;
 }
+.work{
+    align-items: center;
+    display: flex;
+    padding: 10px 100px;
+    background-color: rgb(7, 7, 32);
+    /* position: sticky;
+   top: 10px; */
+}
+.work-1{
+   width: 50%;
+   padding: 0 5%;
+   
+}
+.work-1 h3{
+    font-weight: 300;
+    font-size: 18px;
+    color:  #fff;
+}
+.work-1 h1{
+    color:rgb(17, 66, 17);
+}
+.work-1 p{
+    font-size: 25px;
+    color: #fff;
+    line-height: 40.4px;
+    letter-spacing: 0.16px;
+    padding: 10px 0;
+    font-weight: 100;
+}
+.work-2 p{
+    color: #fff;
+    font-size: 18px;
+    line-height: 30.4px;
+    letter-spacing: 0.16px;
+    padding: 10px 0;
+}
+.work-2{
+    width: 50%;
+    padding: 0 5%; 
+    /* overflow-y: auto;
+    position: relative;
+    top: 0; */
+}
+.work-2 h3{
+    color:rgb(22, 48, 22) ;
+    font-size: 25px;
+    line-height: 24.4px;
+    letter-spacing: 0.16px;
+}
+
+.work button{
+    margin-top: 30px;
+}
+
+.btn-3{
+    border: 4px solid  rgb(17, 66, 17);
+    padding: 20px 70px;
+    border-radius: 3em;
+    font-size: 20px;
+    line-height: 16px;
+}
+
+.work-2 img{
+    height: 15vh;
+    width: 5vw;
+    padding: 15px 0;
+}
+
+.cards{
+    padding: 100px 0;
+}
+.cards-0{
+    padding: 30px 0;
+    display: flex;
+    margin: 0 5%;  
+    gap: 40px;    
+}
+
+/* .cards-00{
+    display: flex;
+    margin: 0 10%; 
+} */
+
+.card-1{
+    border: 2px solid rgb(7, 7, 32);
+    border-radius: 1em;
+    width: 25%;
+}
+
+.card-1 p{
+color: #fff;
+}
+
+ .one{
+    color: grey;
+    background: url("https://img.freepik.com/free-photo/beautiful-scenery-forest-full-high-rise-trees-other-kinds-plants_181624-15941.jpg?w=740&t=st=1679334947~exp=1679335547~hmac=b6b20df6126e0d3ca345eb972c1ae7d65d311c0c8aba23f951e05863271370ab");
+}
+
+.two{
+    color: grey;
+    background: url("https://img.freepik.com/free-photo/plant-that-is-growing-dirt_1340-23049.jpg?w=740&t=st=1679386231~exp=1679386831~hmac=f4044cddd2e3b7818c1f8a8e146c682cbe37a985630f3e95c7e9f9ac0f61ee06");
+}
+.three{
+    color: grey;
+    background: url("https://img.freepik.com/free-photo/hex-backgrounds-networking_23-2149755771.jpg?w=826&t=st=1679386980~exp=1679387580~hmac=707cd30a9fa7f405b897be87451474a2bf9969097979eecc1361849f1a16d09a");
+}
+.four{
+    color: grey;
+    background: url("https://img.freepik.com/free-photo/top-view-plant_23-2148175870.jpg?w=740&t=st=1679386491~exp=1679387091~hmac=c17085f4f9ff1ad0a2ab0f5c93aeaf48d06143773c115ec0d893a472e7f1c210");
+}
+.five{
+    color: grey;
+    background: url("https://img.freepik.com/free-photo/closeup-view-cylindrical-grinder-industrial-concept_181624-17731.jpg?w=740&t=st=1679386850~exp=1679387450~hmac=f955e0537b177183262b781971416a8d3cabf34e4d95e0093c0926cc69e0f98a");
+}
+.six{
+    color: grey;
+    background: url("https://img.freepik.com/free-photo/beautiful-scenery-forest-full-high-rise-trees-other-kinds-plants_181624-15941.jpg?w=740&t=st=1679334947~exp=1679335547~hmac=b6b20df6126e0d3ca345eb972c1ae7d65d311c0c8aba23f951e05863271370ab");
+}
+ .seven{
+    color: grey;
+    background: url("https://img.freepik.com/free-photo/beautiful-scenery-forest-full-high-rise-trees-other-kinds-plants_181624-15941.jpg?w=740&t=st=1679334947~exp=1679335547~hmac=b6b20df6126e0d3ca345eb972c1ae7d65d311c0c8aba23f951e05863271370ab");
+}
+.eight{
+    color: grey;
+    background: url("https://img.freepik.com/free-photo/beautiful-scenery-forest-full-high-rise-trees-other-kinds-plants_181624-15941.jpg?w=740&t=st=1679334947~exp=1679335547~hmac=b6b20df6126e0d3ca345eb972c1ae7d65d311c0c8aba23f951e05863271370ab");
+}
+.nine{
+    color: grey;
+    background: url("https://img.freepik.com/free-photo/beautiful-scenery-forest-full-high-rise-trees-other-kinds-plants_181624-15941.jpg?w=740&t=st=1679334947~exp=1679335547~hmac=b6b20df6126e0d3ca345eb972c1ae7d65d311c0c8aba23f951e05863271370ab");
+}
+.ten{
+    color: grey;
+    background: url("https://img.freepik.com/free-photo/beautiful-scenery-forest-full-high-rise-trees-other-kinds-plants_181624-15941.jpg?w=740&t=st=1679334947~exp=1679335547~hmac=b6b20df6126e0d3ca345eb972c1ae7d65d311c0c8aba23f951e05863271370ab");
+}
+
+
+.onez{
+    background:rgb(7, 7, 32,.5);
+    width: 100%;
+    height: 100%;
+    padding: 20px 10px; 
+    border-radius: 1em;
+}
+.head-1 h4{
+    text-align: center;
+}
+.head-1{
+    color: #fff;
+}
+
+
+ .btn-6{
+    padding: 5px 20px;
+    border-radius: 1em;
+    border: none;
+    background-color: rgb(7, 7, 32);
+    color: #fff;
+}
+
+         
+
