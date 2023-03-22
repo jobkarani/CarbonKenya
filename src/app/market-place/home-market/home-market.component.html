@@ -3,26 +3,71 @@
         <app-navbar></app-navbar>
     </div>
     <div class="page-texts">
-        <p class="mrkt">market place</p>
-        <p class="place">Buy carbon credits</p>
-        <div class="procedure-card">
-            <div class="details">
-                 <h2>1. Request access</h2>
-                <p><a href=""><span>Request access</span></a> to see prices, availability, and the quality assessments for all projects</p>
+        <div class="bg-image">
+            <p class="mrkt">marketplace</p>
+            <p class="place">Buy carbon credits</p>
+            <div class="procedure-card">
+                <div class="Details">
+                    <p class="h2">1. Request access</p>
+                    <p><a href=""><span>Request access</span></a> to see prices, availability, and the quality assessments for all projects</p>
+                </div>
+                <i class="fa-solid fa-arrow-right-long"></i>
+                <div class="Details">
+                    <p class="h2">2. Choose your portfolio</p>
+                    <p>Choose credts from our pre-built portfolios or create your custom portfolio of projects.</p>
+                </div>
+                <i class="fa-solid fa-arrow-right-long"></i>
+                <div class="Details">
+                    <p class="h2">3. Submit portfolio</p>
+                    <p>Submit request to purchase your selection of carbon credits</p>
+                </div>
             </div>
-            <i class="fa-solid fa-arrow-right-long"></i>
-            <div class="details">
-                <h2>2. Choose your portfolio</h2>
-                <p>Choose credts from our pre-built portfolios or create your custom portfolio of projects.</p>
+        </div>
+        <div class="carbon-projects">
+           <div class="topper">
+                <p class="h1">Carbon projects</p>
+                <p class="pp">Hand pick the carbon projects you want to support and create your bespoke portfolio.</p>
+           </div>
+            <div class="all-lists">
+                <p class="p">All locations <i class="fa-solid fa-chevron-down"></i></p>
+                <p class="p">All project types <i class="fa-solid fa-chevron-down"></i></p>
+                <p class="p">All impact files <i class="fa-solid fa-chevron-down"></i></p>
+                <p class="p">All co-benefits <i class="fa-solid fa-chevron-down"></i></p>
+                <p class="p">All verification dates <i class="fa-solid fa-chevron-down"></i></p>
             </div>
-            <i class="fa-solid fa-arrow-right-long"></i>
-            <div class="details">
-                <h2>3. Submit portfolio</h2>
-                <p>Submit request to purchase your selection of carbon credits</p>
+            <div class="carbon-project-list">
+               <div class="list" >
+                    <div class="one" *ngFor="let market of market">
+                        <a routerLink="/market-place/market-details/, market.id" class="image">
+                            <img src="{{ market.cover }}" alt="forest">
+                        </a>
+                        <div class="details">
+                            <a routerLink="/market-place/market-details/, market.id" class="project">{{market.name}}</a>
+                            <a class="icon">{{market.tag}}</a>
+                            <p class="location"><i class="fa-solid fa-location-dot"></i>{{market.location}}</p>
+                            <p class="type"><i class="fa-solid fa-gear"></i> Forest conservation and restoration (REDD+)</p>
+                            <p class="href"><a routerLink="/market-place/market-details/, market.id">View details</a></p>
+                        </div>
+                    </div>
+               </div>
+
+               <div class="sign-up">
+                    <div class="card-1">
+                        <p class="hr-p"><a href="#"><i class="fa-solid fa-plus"></i> Add your carbon project here</a></p>
+                        <p class="h3">Promote your carbon offset project, find buyers, find mitigators, find investores!</p>
+                    </div>
+                    <div class="card-2">
+                        <p class="hr-p"><a href="#"><i class="fa-solid fa-handshake"></i> Patner with carbon projects</a></p>
+                        <p class="h3">Interact directly with offsetters and be part of the project</p>
+                    </div>
+                    <div class="card-3">
+                        <p class="hr-p"><a href="#"><i class="fa-solid fa-rocket"></i> Create your Offsetting project</a></p>
+                        <p class="h3">Create your offsetting project with us through our team of experts</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    
 </div>
 <div class="footer">
     <app-footer></app-footer>

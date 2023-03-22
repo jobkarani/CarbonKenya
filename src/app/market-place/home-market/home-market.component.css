@@ -5,31 +5,34 @@
 app-navbar{
     z-index: 99;    
 }
-.page-texts{
+.bg-image{
     background-image: url("https://img.freepik.com/free-vector/hexagonal-shapes-empty-wide-banner-abstract-design_1017-25916.jpg?w=826&t=st=1679292488~exp=1679293088~hmac=befba6ab8034ca3e9608e29d9970a5f67ec6642eb671454e5d6bf7979d2c876f");
     background-size: cover;
-    height: 80vh;
+    height: 60vh;
 }
-.page-texts p{
-    margin-left: 7%;
-    /* margin-top: 10%; */
-    text-align: start;
-    font-family: '__fontInter_Fallback_e85ed4';
-}
+
 .mrkt{
+    margin-left: 7%;
+    text-align: start;
+    font-family: '__fontInter_e85ed4,__fontInter_Fallback_e85ed4';
     text-transform: uppercase;
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: normal;
+    letter-spacing: 1.5px;
     padding-top: 5%;
     font-weight: 700;
+    color: yellowgreen;
 }
 .place{
+    margin-left: 7%;
+    text-align: start;
+    font-family: '__fontInter_Fallback_e85ed4';
     text-transform: capitalize;
     font-size: 52px;
     font-weight: 700;
     letter-spacing: -1.56px;
     line-height: 67.6px;
+    color: rgb(17, 66, 17);
 }
 .procedure-card{
     display: flex;
@@ -39,30 +42,224 @@ app-navbar{
     background-color: #d8e4e2;
     border-radius: 10px;
 }
-.details{
+.Details{
     width: 100%;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 20px 20px;
 }
-.details h2{
+.Details .h2{
+    padding-bottom: 10px;
     font-size: 22px;
-    padding: 8%;
+    font-weight: 500;
     padding-bottom: 0;
     letter-spacing: normal;
     line-height: 24px;
     text-align: start;
+    color: rgb(17, 66, 17);
 }
-.details p{
+.Details p{
     font-size: 16px;
     line-height: 21px;
     letter-spacing: normal;
     text-align: start;
 }
-.details span{
+
+.fa-arrow-right-long{
+    color: rgb(17, 66, 17);
+}
+.fa-location-dot, .fa-gear{
+    margin-right: 2%;
+}
+.Details span{
     color: #04483c;
     text-decoration: none;
 }
 .procedure-card i{
     font-size: 30px;
     padding-top: 50px;
+}
+
+.topper{
+    padding: 40px 0;
+}
+
+.carbon-projects .h1{
+    font-size: 36px;
+    letter-spacing: -1.56px;
+    text-align: center;
+    letter-spacing: normal;
+    text-transform: capitalize;
+    color: rgb(17, 66, 17);
+}
+.carbon-projects .pp{
+    font-size: 28px;
+    letter-spacing: -1.56px;
+    text-align: center;
+    letter-spacing: normal;
+}
+.carbon-projects h2{
+    border-radius: 2px solid black;
+    margin-left: 70%;
+    font-size: 22px;
+    letter-spacing: -1.56px;
+    text-align: start;
+    line-height: 67.6px;
+    text-align: start;
+    letter-spacing: normal;
+}
+.carbon-projects h2 a{
+    text-decoration: none;
+}
+.carbon-projects span{
+    color: #04483c;
+    text-decoration: none;
+}
+.carbon-projects span:hover{
+    color: rgb(99, 206, 134);
+}
+
+.all-lists{
+    display: flex;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (208px);
+    grid-template-columns: repeat(5, 208px);
+    justify-content: center;
+    grid-gap: 15px;
+}
+.all-lists .p{
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 10px;
+    width: 220px;
+    padding: 10px 0;
+}
+.one{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    border: 1px solid grey;
+    width: 90%;
+    border-radius: 20px;
+    margin-top: 5%;
+}
+.image img{
+    width: 30vw;
+    height: 40vh;
+    margin: 20px;
+    border-radius: 20px;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    padding: 10px 10px;
+}
+.project{
+    margin: 10px 0;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bolder;
+}
+.icon{
+    margin: 10px 0;
+    padding: 5px 20px;
+    color: #fff;
+    width: 50%;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20px;
+    background: rgb(17,66,17, .3);
+}
+.location{
+    font-size: 15px;
+    padding-bottom: 0;
+    padding-top: 20%;
+}
+.type{
+    padding-top: 0;
+    margin-top: 0;
+}
+.href{
+    margin-top: 0;
+    
+}
+.href a{
+    text-decoration: none;
+}
+.href a:hover{
+    color: #114211;
+}
+.carbon-project-list{
+    display: flex;
+    width: 100%;
+    padding-bottom: 5%;
+}
+.list{
+    display: block;
+    width: 70%;
+}
+.sign-up{
+    display: block;
+    width: 30%;
+}
+.card-1{
+    background-color: rgb(17, 66, 17);
+    margin: 7%;
+    margin-top: 11%;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: #fff;
+}
+.card-2{
+    background-color: rgb(7, 7, 32);
+    margin: 7%;
+    margin-top: 11%;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: #fff;
+}
+.card-3{
+    background-color: rgb(17, 66, 17);
+    margin: 7%;
+    margin-top: 11%;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+.hr-p{
+    padding-bottom: 5%;
+    border-bottom: 2px solid #fff;
+}
+.hr-p a{
+    font-size: 22px;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: start;
+    color: #fff;
+    text-transform: capitalize;
+}
+.hr-p a:hover{
+    color: yellowgreen;
+}
+.card-1 .h3{
+    font-size: 16px;
+    line-height: normal;
+    text-align: start;
+    padding-bottom: 10px;
+}
+.card-2 .h3{
+    font-size: 16px;
+    line-height: normal;
+    text-align: start;
+    padding-bottom: 10px;
+}
+.card-3 .h3{
+    font-size: 16px;
+    line-height: normal;
+    text-align: start;
+    padding-bottom: 10px;
 }
