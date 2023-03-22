@@ -221,3 +221,68 @@
   from {opacity: .4}
   to {opacity: 1}
 }
+.about-projo{
+    display: flex;
+    flex-direction: row;
+    background-color: #717171;
+    border-radius: 10px;
+    margin-top: 5%;
+    width: 69%;
+}
+.proj-det h4{
+ margin-top: 4%;
+ margin-left: 4%;
+}
+.proj-det p{
+    text-align: start;
+    margin-left: 4%;
+    width: 90%;
+}
+.youtube-vids img{
+    height: 300px;
+    width: 400px;
+    border-radius: 30px;
+    padding: 10%;
+    padding-right: 20%;
+}
+.to-date{
+    margin-top: 5%;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 2%;
+}
+.impact-date{
+    display: flex;
+    flex-direction: row;
+    background-color: #97cf97;
+    width: 69%;
+    border-radius: 10px;
+    gap: 2px;
+}
+.one h5{
+    margin-left: 20%;
+    font-size: 25px;
+}
+.one p{
+    margin-left: 20%;
+    font-size: 16px;
+    font-weight: 600;
+}
+.sustainable-goals{
+    width: 69%;
+}
+.sustainable-goals h3{
+    font-size: 25px;
+    font-weight: 900;
+    margin: 2%;
+}
+.sustainable-goals p{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 2%;
+}
+.sdgs img{
+    margin: 1%;
+    border-radius: 5px;
+    width: 200px;
+}
