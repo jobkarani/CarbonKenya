@@ -144,6 +144,14 @@ z-index: 99;
 .cards{
     padding: 100px 0;
 }
+.intro{
+    margin-left: 40%;
+    font-size: 40px;
+    color: rgb(17, 66, 17);
+    padding: 20px 0;
+    width: 20%;
+    text-align: center;
+}
 .cards-0{
     padding: 30px 0;
     display: flex;
@@ -177,7 +185,7 @@ color: #fff;
 }
 .three{
     color: grey;
-    background: url("https://img.freepik.com/free-photo/hex-backgrounds-networking_23-2149755771.jpg?w=826&t=st=1679386980~exp=1679387580~hmac=707cd30a9fa7f405b897be87451474a2bf9969097979eecc1361849f1a16d09a");
+    background: url("https://img.freepik.com/free-photo/closeup-green-sea-turtle-swimming-underwater-lights_181624-25236.jpg?w=740&t=st=1679473247~exp=1679473847~hmac=84ff7179dc25e785e6af9769bb795a0af7658fd3584b6aca9203bea5f82a8500");
 }
 .four{
     color: grey;
@@ -189,23 +197,23 @@ color: #fff;
 }
 .six{
     color: grey;
-    background: url("https://img.freepik.com/free-photo/beautiful-scenery-forest-full-high-rise-trees-other-kinds-plants_181624-15941.jpg?w=740&t=st=1679334947~exp=1679335547~hmac=b6b20df6126e0d3ca345eb972c1ae7d65d311c0c8aba23f951e05863271370ab");
+    background: url("https://img.freepik.com/free-photo/sand-is-heated-fire-make-coffee_169016-15145.jpg?w=740&t=st=1679472653~exp=1679473253~hmac=30e6ad6434188bbea2f7a79d6dedb85843faefaeb5d2237303ead4bf4be297f9");
 }
  .seven{
     color: grey;
-    background: url("https://img.freepik.com/free-photo/beautiful-scenery-forest-full-high-rise-trees-other-kinds-plants_181624-15941.jpg?w=740&t=st=1679334947~exp=1679335547~hmac=b6b20df6126e0d3ca345eb972c1ae7d65d311c0c8aba23f951e05863271370ab");
+    background: url("https://img.freepik.com/free-photo/view-green-forest-trees-with-co2_23-2149675040.jpg?w=360&t=st=1679472818~exp=1679473418~hmac=2dcc7488645ca38525261a36b6f6cf5d9f23fd84ce08cd1dca3898f236f25941");
 }
 .eight{
     color: grey;
-    background: url("https://img.freepik.com/free-photo/beautiful-scenery-forest-full-high-rise-trees-other-kinds-plants_181624-15941.jpg?w=740&t=st=1679334947~exp=1679335547~hmac=b6b20df6126e0d3ca345eb972c1ae7d65d311c0c8aba23f951e05863271370ab");
+    background: url("https://img.freepik.com/free-photo/burning-trunks_1259-188.jpg?w=740&t=st=1679472942~exp=1679473542~hmac=caafd707794fe3a7f1d1fe577bbee99918f684be0d375495b0682af54687bce4");
 }
 .nine{
     color: grey;
-    background: url("https://img.freepik.com/free-photo/beautiful-scenery-forest-full-high-rise-trees-other-kinds-plants_181624-15941.jpg?w=740&t=st=1679334947~exp=1679335547~hmac=b6b20df6126e0d3ca345eb972c1ae7d65d311c0c8aba23f951e05863271370ab");
+    background: url("https://img.freepik.com/free-photo/white-drone-flying-parched-desert-area-against-blue-sky_181624-44677.jpg?w=740&t=st=1679473105~exp=1679473705~hmac=e9ec3238c48dd1fa2b658d78d4b47156d84012be62e097a3b71313dbb18c668e");
 }
 .ten{
     color: grey;
-    background: url("https://img.freepik.com/free-photo/beautiful-scenery-forest-full-high-rise-trees-other-kinds-plants_181624-15941.jpg?w=740&t=st=1679334947~exp=1679335547~hmac=b6b20df6126e0d3ca345eb972c1ae7d65d311c0c8aba23f951e05863271370ab");
+    background: url("https://img.freepik.com/free-photo/low-angle-shot-factory-with-smoke-steam-coming-out-chimneys-captured-sunset_181624-44694.jpg?w=740&t=st=1679473180~exp=1679473780~hmac=d442837e8484343b71adf1ce2be2fa65647e6675b74c86a2bc62f56b7ad3db3b");
 }
 
 

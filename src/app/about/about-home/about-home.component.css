@@ -87,6 +87,7 @@
 
 .team{
     padding: 2% 10%;
+    display: flex;
 }
 
 .team-head{
@@ -94,10 +95,35 @@
     font-weight: 700;
     letter-spacing: 2px;
     text-align: center;
+    padding-top: 100px;
+    color: rgb(17, 66, 17);
+}
+.team{
+    text-align: center;
+    margin: 0 17%;
+    gap: 80px;
+}
+.nesh img{
+    height: 42vh;
+    width: 20vw;
+    
+}
+.nesh h3{
+    color: grey;
+}
+
+.nesh h4{
+    color: yellowgreen;
+    text-decoration: underline;
+    font-size: 16px;
 }
 
 .all{
     margin: 5% 2%;
+}
+.all h2{
+    text-align: center;
+    color: rgb(17, 66, 17);
 }
 .images{
     display: flex;

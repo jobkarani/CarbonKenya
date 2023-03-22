@@ -3,7 +3,7 @@ ul {
     padding: 0px;
 }
 .footer-section {
-  background: #03322a;
+  background:  rgb(7, 7, 32);
   position: relative;
 }
 .footer-cta {
@@ -99,7 +99,7 @@ ul {
   border-radius: 50%;
 }
 .facebook-bg{
-  background: #04483c;
+  background: rgb(17, 66, 17) ;
   border-radius: 2px solid #fff;
 }
 
@@ -166,12 +166,12 @@ ul {
     top: 0;
 }
 .subscribe-form button i {
-  color: #04483c;
+  color:rgb(17, 66, 17);
   font-size: 22px;
   transform: rotate(-6deg);
 }
 .copyright-area{
-  background: #03322a;
+  background:  rgb(7, 7, 32);
   padding: 25px 0;
 }
 .copyright-text p {
