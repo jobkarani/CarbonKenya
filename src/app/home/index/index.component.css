@@ -381,6 +381,10 @@ color: #fff;
     .cover-image{
         height: 50vh;
    }
+   .ones img{
+    height: 13vh;
+    width: 20vw;
+   }
     .content{
         height: 50vh;
     }

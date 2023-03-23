@@ -222,8 +222,11 @@
     }
   }
   @media only screen and (max-width: 500px) {
-    .bg{
-        height: 40.5vh;
+    .top-banner {
+        height: 50vh;
+      }
+    .top-banner .bg{
+        height: 50vh;
     }
     .p-one{
         margin-top: 2%;
