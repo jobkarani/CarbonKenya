@@ -145,31 +145,27 @@ z-index: 99;
     padding: 100px 0;
 }
 .intro{
-    margin-left: 40%;
+    /* text-transform: capitalize; */
     font-size: 40px;
     color: rgb(17, 66, 17);
     padding: 20px 0;
-    width: 20%;
     text-align: center;
 }
 .cards-0{
-    padding: 30px 0;
+    width: 100% !important;
     display: flex;
-    margin: 0 5%;  
-    gap: 40px;    
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (300px);
+    grid-template-columns: repeat(5, 300px);
+    justify-content: center;
+    grid-gap: 25px;
 }
-
-/* .cards-00{
-    display: flex;
-    margin: 0 10%; 
-} */
-
 .card-1{
     border: 2px solid rgb(7, 7, 32);
     border-radius: 1em;
-    width: 25%;
+    width: 100%;
 }
-
 .card-1 p{
 color: #fff;
 }
@@ -178,7 +174,6 @@ color: #fff;
     color: grey;
     background: url("https://img.freepik.com/free-photo/beautiful-scenery-forest-full-high-rise-trees-other-kinds-plants_181624-15941.jpg?w=740&t=st=1679334947~exp=1679335547~hmac=b6b20df6126e0d3ca345eb972c1ae7d65d311c0c8aba23f951e05863271370ab");
 }
-
 .two{
     color: grey;
     background: url("https://img.freepik.com/free-photo/plant-that-is-growing-dirt_1340-23049.jpg?w=740&t=st=1679386231~exp=1679386831~hmac=f4044cddd2e3b7818c1f8a8e146c682cbe37a985630f3e95c7e9f9ac0f61ee06");
@@ -239,6 +234,195 @@ color: #fff;
     background-color: rgb(7, 7, 32);
     color: #fff;
 }
+@media only screen and (max-width: 850px) {
+    .container-full {
+    width: 100%;
+    z-index: 99;
+    }
+    app-navbar {
+    z-index: 99;
+    }
+    .cover-image {
+    background-image: url("https://img.freepik.com/premium-photo/glass-globe-ball-with-tree-growing-green-nature-blur-background-eco-earth-day-concept_34152-3373.jpg?w=996");
+    background-size: cover;
+    }
+    .content{
+        height: 60vh;
+        padding-top: 6%;
+    }
+    .cover-image{
+        height: 60vh;
+   }
+   .content h1{
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+    padding-top: 8%;
+    padding-bottom: 30px;
+    font-size: 50px;
+    line-height: 79.8px;
+   }
+   .content a{
+    background-color: rgb(12, 12, 54);      
+   }
+    .btn-2{
+        margin-left: 35% !important;
+        padding: 20px 30px;
+        color: #fff;
+    }
+    .descript-1 {
+    padding-top: 100px;
+    padding-bottom: 33px;
+    text-align: center;
+    color: rgb(17, 66, 17);
+    }
+    .des {
+    padding-bottom: 50px;
+    text-align: center;
+    width: 100%;
+    margin-left: 0;
+    }
+     .des h2{
+        font-size: 22px;
+        width: 60%;
+       align-items: center;
+       margin-left: 20%;
+     }
+     .des h4{
+        font-size: 20px;
+     } 
+    
+    .all {
+    display: block;
+    padding: 0 5%;
+    padding-bottom: 50px;
+    }
+    
+    .ones {
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+    }
+    
+    .ones img {
+    height: 22vh;
+    width: 30vw;
+    }
+    
+    .ones h3 {
+    padding: 10px 0;
+    }
+    
+    .ones h4 {
+    color: grey;
+    }
+    .ones h5{
+    font-size: 22px;
+    }
+    .work {
+    text-align: center;
+    align-items: center;
+    display: block;
+    padding: 10px 0;
+    background-color: rgb(7, 7, 32);
+    }
+    .work-2 img{
+        width: 20vw;
+        height: 16vh;
+    }
+    .work-2 p{
+        font-size: 25px;
+        line-height: 40px;
+    }
+    .work-1 h3{
+        font-size: 18px;
+        padding-top: 50px;
+        padding-bottom: 20px;;
+    }
+    .work-1, .work-2{
+        width: 100%;
+    }
+    .work-2 .A{
+        font-size: 30px;
+    }
 
-         
+    .btn-3{
+        background-color: rgb(17, 66, 17);
+        color: #fff;
+        font-size: 20px;
+    }
 
+    .intro{
+        width: 40%;
+        margin-left: 30%;
+    }
+    .card-1{
+       width: 100%; 
+    }
+    .cards-0{
+        width: 100% !important;
+        display: flex;
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: (350px);
+        grid-template-columns: repeat(2, 350px);
+        justify-content: center;
+        grid-gap: 25px;
+        margin: 0 0;
+    }
+    .card-1{
+        border: 2px solid rgb(7, 7, 32);
+        border-radius: 1em;
+        width:  100%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .cover-image{
+        height: 50vh;
+   }
+    .content{
+        height: 50vh;
+    }
+    .content h1{
+        font-size: 28px;
+        line-height: 38px;
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 10%;
+    }
+    .btn-2{
+        margin-left: 20% !important;
+        font-size: 15px;
+        padding: 8px 30px;
+    }
+    .descript-1{
+        padding-top: 30px;
+        padding-bottom: 5px;
+    }
+    .des{
+        padding-bottom: 0;
+
+     }
+     .cards .intro{
+        width: 100%;
+        margin-left: 1.5%;
+     }
+    .cards-0{
+        width: 100% !important;
+        display: flex;
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: (350px);
+        grid-template-columns: repeat(1, 350px);
+        justify-content: center;
+        grid-gap: 0;
+        margin: 0 0;
+    }
+    .card-1{
+        border: 2px solid rgb(7, 7, 32);
+        border-radius: 1em;
+        width:  100%;
+        margin-top: 5%;
+    }
+}
