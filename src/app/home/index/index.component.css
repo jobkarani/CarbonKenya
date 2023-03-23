@@ -144,24 +144,28 @@ z-index: 99;
 .cards{
     padding: 100px 0;
 }
-.cards-0{
-    padding: 30px 0;
-    display: flex;
-    margin: 0 5%;  
-    gap: 40px;    
+.intro{
+    /* text-transform: capitalize; */
+    font-size: 40px;
+    color: rgb(17, 66, 17);
+    padding: 20px 0;
+    text-align: center;
 }
-
-/* .cards-00{
+.cards-0{
+    width: 100% !important;
     display: flex;
-    margin: 0 10%; 
-} */
-
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (300px);
+    grid-template-columns: repeat(5, 300px);
+    justify-content: center;
+    grid-gap: 25px;
+}
 .card-1{
     border: 2px solid rgb(7, 7, 32);
     border-radius: 1em;
-    width: 25%;
+    width: 100%;
 }
-
 .card-1 p{
 color: #fff;
 }
@@ -170,14 +174,13 @@ color: #fff;
     color: grey;
     background: url("https://img.freepik.com/free-photo/beautiful-scenery-forest-full-high-rise-trees-other-kinds-plants_181624-15941.jpg?w=740&t=st=1679334947~exp=1679335547~hmac=b6b20df6126e0d3ca345eb972c1ae7d65d311c0c8aba23f951e05863271370ab");
 }
-
 .two{
     color: grey;
     background: url("https://img.freepik.com/free-photo/plant-that-is-growing-dirt_1340-23049.jpg?w=740&t=st=1679386231~exp=1679386831~hmac=f4044cddd2e3b7818c1f8a8e146c682cbe37a985630f3e95c7e9f9ac0f61ee06");
 }
 .three{
     color: grey;
-    background: url("https://img.freepik.com/free-photo/hex-backgrounds-networking_23-2149755771.jpg?w=826&t=st=1679386980~exp=1679387580~hmac=707cd30a9fa7f405b897be87451474a2bf9969097979eecc1361849f1a16d09a");
+    background: url("https://img.freepik.com/free-photo/closeup-green-sea-turtle-swimming-underwater-lights_181624-25236.jpg?w=740&t=st=1679473247~exp=1679473847~hmac=84ff7179dc25e785e6af9769bb795a0af7658fd3584b6aca9203bea5f82a8500");
 }
 .four{
     color: grey;
@@ -189,23 +192,23 @@ color: #fff;
 }
 .six{
     color: grey;
-    background: url("https://img.freepik.com/free-photo/beautiful-scenery-forest-full-high-rise-trees-other-kinds-plants_181624-15941.jpg?w=740&t=st=1679334947~exp=1679335547~hmac=b6b20df6126e0d3ca345eb972c1ae7d65d311c0c8aba23f951e05863271370ab");
+    background: url("https://img.freepik.com/free-photo/sand-is-heated-fire-make-coffee_169016-15145.jpg?w=740&t=st=1679472653~exp=1679473253~hmac=30e6ad6434188bbea2f7a79d6dedb85843faefaeb5d2237303ead4bf4be297f9");
 }
  .seven{
     color: grey;
-    background: url("https://img.freepik.com/free-photo/beautiful-scenery-forest-full-high-rise-trees-other-kinds-plants_181624-15941.jpg?w=740&t=st=1679334947~exp=1679335547~hmac=b6b20df6126e0d3ca345eb972c1ae7d65d311c0c8aba23f951e05863271370ab");
+    background: url("https://img.freepik.com/free-photo/view-green-forest-trees-with-co2_23-2149675040.jpg?w=360&t=st=1679472818~exp=1679473418~hmac=2dcc7488645ca38525261a36b6f6cf5d9f23fd84ce08cd1dca3898f236f25941");
 }
 .eight{
     color: grey;
-    background: url("https://img.freepik.com/free-photo/beautiful-scenery-forest-full-high-rise-trees-other-kinds-plants_181624-15941.jpg?w=740&t=st=1679334947~exp=1679335547~hmac=b6b20df6126e0d3ca345eb972c1ae7d65d311c0c8aba23f951e05863271370ab");
+    background: url("https://img.freepik.com/free-photo/burning-trunks_1259-188.jpg?w=740&t=st=1679472942~exp=1679473542~hmac=caafd707794fe3a7f1d1fe577bbee99918f684be0d375495b0682af54687bce4");
 }
 .nine{
     color: grey;
-    background: url("https://img.freepik.com/free-photo/beautiful-scenery-forest-full-high-rise-trees-other-kinds-plants_181624-15941.jpg?w=740&t=st=1679334947~exp=1679335547~hmac=b6b20df6126e0d3ca345eb972c1ae7d65d311c0c8aba23f951e05863271370ab");
+    background: url("https://img.freepik.com/free-photo/white-drone-flying-parched-desert-area-against-blue-sky_181624-44677.jpg?w=740&t=st=1679473105~exp=1679473705~hmac=e9ec3238c48dd1fa2b658d78d4b47156d84012be62e097a3b71313dbb18c668e");
 }
 .ten{
     color: grey;
-    background: url("https://img.freepik.com/free-photo/beautiful-scenery-forest-full-high-rise-trees-other-kinds-plants_181624-15941.jpg?w=740&t=st=1679334947~exp=1679335547~hmac=b6b20df6126e0d3ca345eb972c1ae7d65d311c0c8aba23f951e05863271370ab");
+    background: url("https://img.freepik.com/free-photo/low-angle-shot-factory-with-smoke-steam-coming-out-chimneys-captured-sunset_181624-44694.jpg?w=740&t=st=1679473180~exp=1679473780~hmac=d442837e8484343b71adf1ce2be2fa65647e6675b74c86a2bc62f56b7ad3db3b");
 }
 
 
@@ -231,6 +234,195 @@ color: #fff;
     background-color: rgb(7, 7, 32);
     color: #fff;
 }
+@media only screen and (max-width: 850px) {
+    .container-full {
+    width: 100%;
+    z-index: 99;
+    }
+    app-navbar {
+    z-index: 99;
+    }
+    .cover-image {
+    background-image: url("https://img.freepik.com/premium-photo/glass-globe-ball-with-tree-growing-green-nature-blur-background-eco-earth-day-concept_34152-3373.jpg?w=996");
+    background-size: cover;
+    }
+    .content{
+        height: 60vh;
+        padding-top: 6%;
+    }
+    .cover-image{
+        height: 60vh;
+   }
+   .content h1{
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+    padding-top: 8%;
+    padding-bottom: 30px;
+    font-size: 50px;
+    line-height: 79.8px;
+   }
+   .content a{
+    background-color: rgb(12, 12, 54);      
+   }
+    .btn-2{
+        margin-left: 35% !important;
+        padding: 20px 30px;
+        color: #fff;
+    }
+    .descript-1 {
+    padding-top: 100px;
+    padding-bottom: 33px;
+    text-align: center;
+    color: rgb(17, 66, 17);
+    }
+    .des {
+    padding-bottom: 50px;
+    text-align: center;
+    width: 100%;
+    margin-left: 0;
+    }
+     .des h2{
+        font-size: 22px;
+        width: 60%;
+       align-items: center;
+       margin-left: 20%;
+     }
+     .des h4{
+        font-size: 20px;
+     } 
+    
+    .all {
+    display: block;
+    padding: 0 5%;
+    padding-bottom: 50px;
+    }
+    
+    .ones {
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+    }
+    
+    .ones img {
+    height: 22vh;
+    width: 30vw;
+    }
+    
+    .ones h3 {
+    padding: 10px 0;
+    }
+    
+    .ones h4 {
+    color: grey;
+    }
+    .ones h5{
+    font-size: 22px;
+    }
+    .work {
+    text-align: center;
+    align-items: center;
+    display: block;
+    padding: 10px 0;
+    background-color: rgb(7, 7, 32);
+    }
+    .work-2 img{
+        width: 20vw;
+        height: 16vh;
+    }
+    .work-2 p{
+        font-size: 25px;
+        line-height: 40px;
+    }
+    .work-1 h3{
+        font-size: 18px;
+        padding-top: 50px;
+        padding-bottom: 20px;;
+    }
+    .work-1, .work-2{
+        width: 100%;
+    }
+    .work-2 .A{
+        font-size: 30px;
+    }
 
-         
+    .btn-3{
+        background-color: rgb(17, 66, 17);
+        color: #fff;
+        font-size: 20px;
+    }
 
+    .intro{
+        width: 40%;
+        margin-left: 30%;
+    }
+    .card-1{
+       width: 100%; 
+    }
+    .cards-0{
+        width: 100% !important;
+        display: flex;
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: (350px);
+        grid-template-columns: repeat(2, 350px);
+        justify-content: center;
+        grid-gap: 25px;
+        margin: 0 0;
+    }
+    .card-1{
+        border: 2px solid rgb(7, 7, 32);
+        border-radius: 1em;
+        width:  100%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .cover-image{
+        height: 50vh;
+   }
+    .content{
+        height: 50vh;
+    }
+    .content h1{
+        font-size: 28px;
+        line-height: 38px;
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 10%;
+    }
+    .btn-2{
+        margin-left: 20% !important;
+        font-size: 15px;
+        padding: 8px 30px;
+    }
+    .descript-1{
+        padding-top: 30px;
+        padding-bottom: 5px;
+    }
+    .des{
+        padding-bottom: 0;
+
+     }
+     .cards .intro{
+        width: 100%;
+        margin-left: 1.5%;
+     }
+    .cards-0{
+        width: 100% !important;
+        display: flex;
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: (350px);
+        grid-template-columns: repeat(1, 350px);
+        justify-content: center;
+        grid-gap: 0;
+        margin: 0 0;
+    }
+    .card-1{
+        border: 2px solid rgb(7, 7, 32);
+        border-radius: 1em;
+        width:  100%;
+        margin-top: 5%;
+    }
+}

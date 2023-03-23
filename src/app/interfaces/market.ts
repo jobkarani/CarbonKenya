@@ -12,6 +12,7 @@ export interface Market {
     location: string;
     verifier: string; 
     tag: string;
+    themeMethod: string;
     youtube_Video?: string; 
     webLink?: string; 
 }
