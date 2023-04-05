@@ -127,29 +127,89 @@ header{
   .btn-1{
     text-align: center;
     padding: 10px 50px;
-    border-radius: 2em;
+    border-radius: 10px;
     background-color: rgb(17, 66, 17);
     color: #fff;
     font-size: 20px;
-
   }
+
   @media only screen and (max-width: 850px) {
   
     header{
       padding: 8px 0;
     }
+
+    .container-full{
+      background:  rgb(7, 7, 32);
+      width: 100%;
+      height: 8vh;
+    }
+
+    .nav-logo {
+      width: 40%;
+      margin-top: 2%;
+      margin-left: 5%;
+      padding: 0 0;
+    }
+    .nav-logo .logo {
+        font-size: 20px;
+        font-weight: 800;
+        font-family: 'add light';
+        letter-spacing: 1.16px;
+        line-height: 3.28px;
+        font-style: italic;
+        color: #99d2d5;
+        text-decoration: none;
+        font-weight: 600;
+    }
+    .nav-logo .logo span{
+        font-size: 20px;
+        font-weight: 800;
+        font-family: 'add light';
+        letter-spacing: 1.16px;
+        line-height: 3.28px;
+        font-style: italic;
+        color: #d9ede6;
+        text-decoration: none;
+    }
+  
+    .logg{
+        margin-left: 5%;
+        font-size:12px;
+        font-weight: 800;
+        font-family: 'add light';
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .four{
+      display: none;
+    }
+
+    .three{
+      display: contents;;
+    }
+
+    .five{
+      display: contents;
+    }
   
     .menu{
+      display: block;
       position: fixed;
       right: -100%;
       top: 44px;
       width: 280px;
       height: auto;
       padding: 20% 0;
-      background-color: #f5f0ef;
+      background:  rgb(7, 7, 32);
       transition: .4s ease-in-out;
       z-index: 999;
       overflow-x: hidden !important;
+    }
+
+    .menu ul{
+      display: block;
     }
   
     .menu ul li{
@@ -161,7 +221,7 @@ header{
     }
   
     .nav-link{
-      color: #686868;
+      color: #fff;
       text-transform: uppercase;
     }
   
@@ -169,14 +229,14 @@ header{
       display: inline-block;
       position: relative;
       top: 10px;
-      float: right;
-      margin-right: 5%;
+      left: 80%;
     }
   
     .menu-icon span{
-      width: 32px;
-      height: 3px;
-      background: #000 !important;
+      width: 42px;
+      height: 4px;
+      margin-top: 5px;
+      background: #fff !important;
       display: block;
       transition: .2s ease-in-out;
     }
@@ -202,27 +262,87 @@ header{
       right: 0;
       transition: .4s ease-in-out;
     }
+
+    .contact{
+      margin-right: 20%;
+      margin-left: 50%;
+      margin-top: 30px;
+      width: 25%;
+    }
+  
+    .contact button{
+      float: left;
+      border: none;
+    }
+
+    .btn-1{
+      text-align: center;
+      padding: 10px 30px;
+      border-radius: none !important;
+      background-color: transparent;
+      color: #fff;
+      font-size: 20px;
+      text-transform: capitalize;
+      font-family: 'Times New Roman', Times, serif;
+    }
   }
   
   @media only screen and (max-width: 500px) {
   
     header{
       padding: 0 0;
-      
       background-color: transparent;
     }
   
     .container-full{
       background:  rgb(7, 7, 32);
       width: 100%;
+      height: 8vh;
     }
 
-    .one{
-      display: none;
+    .nav-logo {
+      width: 40%;
+      margin-top: 2%;
+      margin-left: 5%;
+      padding: 0 0;
+    }
+    .nav-logo .logo {
+        font-size: 20px;
+        font-weight: 800;
+        font-family: 'add light';
+        letter-spacing: 1.16px;
+        line-height: 3.28px;
+        font-style: italic;
+        color: #99d2d5;
+        text-decoration: none;
+        font-weight: 600;
+    }
+    .nav-logo .logo span{
+        font-size: 20px;
+        font-weight: 800;
+        font-family: 'add light';
+        letter-spacing: 1.16px;
+        line-height: 3.28px;
+        font-style: italic;
+        color: #d9ede6;
+        text-decoration: none;
+    }
+  
+    .logg{
+        margin-left: 5%;
+        font-size:12px;
+        font-weight: 800;
+        font-family: 'add light';
+        color: #fff;
+        text-decoration: none;
     }
 
     .four{
       display: none;
+    }
+
+    .three{
+      display: contents;;
     }
 
     .five{
@@ -254,8 +374,8 @@ header{
     }
   
     .nav-link{
-      color: #686868;
-      text-transform: uppercase;
+      color: #fff;
+      text-transform: capitalize;
       font-family: 'Times New Roman', Times, serif;
     }
   
@@ -263,14 +383,14 @@ header{
       display: inline-block;
       position: relative;
       top: 10px;
-      float: right;
-      margin-right: 5%;
+      left: 0;
     }
   
     .menu-icon span{
-      width: 32px;
-      height: 3px;
-      background: #fff;
+      width: 42px;
+      height: 4px;
+      margin-top: 5px;
+      background: #fff !important;
       display: block;
       transition: .2s ease-in-out;
     }
@@ -295,6 +415,29 @@ header{
     .menuClass{
       right: 0;
       transition: .4s ease-in-out;
+    }
+
+    .contact{
+      margin-right: 20%;
+      margin-left: 50%;
+      margin-top: 30px;
+      width: 25%;
+    }
+  
+    .contact button{
+      float: left;
+      border: none;
+    }
+
+    .btn-1{
+      text-align: center;
+      padding: 10px 30px;
+      border-radius: none !important;
+      background-color: transparent;
+      color: #fff;
+      font-size: 20px;
+      text-transform: capitalize;
+      font-family: 'Times New Roman', Times, serif;
     }
     
   }
