@@ -17,7 +17,14 @@
           <ul>
             <li class="li"><a class="nav-link active" routerLink="/home" routerLinkActive="active-link" ariaCurrentWhenActive="page">Home</a></li>
             <li class="li"><a class="nav-link" routerLink="/experience" routerLinkActive="active-link" ariaCurrentWhenActive="page">Product</a></li>
-            <li class="li"><a class="nav-link" routerLink="/about" routerLinkActive="active-link" ariaCurrentWhenActive="page">Company</a></li>
+            <li class="li dropdown">
+              <a class="nav-link" role="button" id="companyDropdown" data-bs-toggle="dropdown" aria-expanded="false">Company <i class="fa-solid fa-caret-down"></i></a>
+              <ul class="dropdown-menu" aria-labelledby="companyDropdown">
+                <li><a class="dropdown-item" routerLink="/about" routerLinkActive="active-link" ariaCurrentWhenActive="page">About Us</a></li>
+                <li><a class="dropdown-item" href="#">News</a></li>
+                <li><a class="dropdown-item" href="#">Careers</a></li>
+              </ul>
+            </li>
             <li class="li"><a class="nav-link" routerLink="/market-place" routerLinkActive="active-link" ariaCurrentWhenActive="page">Buy Credits</a></li>
           </ul>
 
@@ -25,7 +32,7 @@
             <button class="btn-1"> Make an Enquiry</button>
           </div>
         </div>
-   
+
         </div>
         <div class="contact four">
           <button class="btn-1"> Make an Enquiry</button>
