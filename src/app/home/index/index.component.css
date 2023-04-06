@@ -142,25 +142,26 @@ z-index: 99;
 }
 
 .cards{
-    padding: 100px 0;
+    padding: 100px 15%;
 }
+
 .intro{
-    /* text-transform: capitalize; */
     font-size: 40px;
     color: rgb(17, 66, 17);
     padding: 20px 0;
     text-align: center;
 }
 .cards-0{
-    width: 100% !important;
+    width: 100%;
     display: flex;
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (300px);
-    grid-template-columns: repeat(5, 300px);
+    -ms-grid-columns: (270px);
+    grid-template-columns: repeat(5, 270px);
     justify-content: center;
-    grid-gap: 25px;
+    grid-gap: 15px;
 }
+
 .card-1{
     border: 2px solid rgb(7, 7, 32);
     border-radius: 1em;
