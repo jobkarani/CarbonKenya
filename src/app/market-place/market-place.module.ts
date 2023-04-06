@@ -5,6 +5,7 @@ import { MarketPlaceComponent } from './market-place.component';
 import { SharedModule } from '../shared/shared.module';
 import { MarketRoutingModule } from './market-routing.module';
 import { MarketDetailsComponent } from './market-details/market-details.component';
+import { ErrorpageComponent } from './errorpage/errorpage.component';
 
 
 
@@ -12,7 +13,8 @@ import { MarketDetailsComponent } from './market-details/market-details.componen
   declarations: [
     MarketPlaceComponent,
     HomeMarketComponent,
-    MarketDetailsComponent
+    MarketDetailsComponent,
+    ErrorpageComponent
   ],
   imports: [
     CommonModule,
