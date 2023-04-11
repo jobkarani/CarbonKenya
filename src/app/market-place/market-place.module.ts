@@ -6,6 +6,7 @@ import { SharedModule } from '../shared/shared.module';
 import { MarketRoutingModule } from './market-routing.module';
 import { MarketDetailsComponent } from './market-details/market-details.component';
 import { ErrorpageComponent } from './errorpage/errorpage.component';
+import { AdoptersComponent } from './adopters/adopters.component';
 
 
 
@@ -14,7 +15,8 @@ import { ErrorpageComponent } from './errorpage/errorpage.component';
     MarketPlaceComponent,
     HomeMarketComponent,
     MarketDetailsComponent,
-    ErrorpageComponent
+    ErrorpageComponent,
+    AdoptersComponent
   ],
   imports: [
     CommonModule,

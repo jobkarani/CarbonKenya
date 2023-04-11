@@ -43,7 +43,7 @@
 
 .value{
     padding: 2% 8%;
-    background: rgb(7, 7, 32);
+    background: linear-gradient(127deg, rgb(7, 7, 32)40%, rgb(173, 255, 47)100%);
 }
 
 .h-values{
@@ -226,8 +226,11 @@
     }
   }
   @media only screen and (max-width: 500px) {
-    .bg{
-        height: 40.5vh;
+    .top-banner {
+        height: 50vh;
+      }
+    .top-banner .bg{
+        height: 50vh;
     }
     .p-one{
         margin-top: 2%;

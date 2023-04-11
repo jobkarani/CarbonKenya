@@ -266,3 +266,293 @@ app-navbar{
     text-align: start;
     padding-bottom: 10px;
 }
+
+@media (max-width: 850px) {
+    .market-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+    .page-texts {
+        width: 100%;
+        padding: 0 20px;
+    }
+ 
+    .Details h2{
+        font-size: 25px;
+        font-weight: 500;
+           }
+    .Details p{
+    font-size: 20px;
+    line-height: 30px;
+    }
+    .bg-image{
+        height: 45vh;
+    } 
+    .all-lists{
+        display: flex;
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: (200px);
+        grid-template-columns: repeat(2, 200px);
+        justify-content: center;
+        grid-gap: 30px;
+    }  
+    .list{
+        width: 60%;
+       
+    }
+    .carbon-project-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .one {
+        width: 100%;
+        max-width: 400px;
+        margin: 20px;
+        padding-left: 5px;
+    }
+    
+    .sign-up {
+        display: flex;
+        flex-direction: column;
+    }
+    .one{
+        height: 40vh;
+        width: 100%;
+    }
+    .image img{
+        width: 30vw;
+        height: 20vh;
+        margin: 20px 0;
+    }
+    .card-1,
+    .card-2,
+    .card-3 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+} 
+@media (max-width: 500px) {
+    .market-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+    .page-texts {
+        width: 100%;
+        padding: 0 0;
+    }
+    .bg-image .place{
+        font-size: 22px;
+    }
+    .topper{
+        padding: 10px 0;
+    }
+   
+    .procedure-card i{
+        padding-top: 10px;
+    }
+    .carbon-projects .pp{
+        font-family: 'Times New Roman', Times, serif;
+        line-height: 30px;
+    }
+    .market-container .bg-image {
+        height: auto;
+    }
+    .all-lists{
+        display: flex;
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: (200px);
+        grid-template-columns: repeat(2, 200px);
+        justify-content: center;
+        grid-gap: 30px;
+    }  
+    
+    .market-container .mrkt {
+        font-size: 32px;
+        line-height: 1;
+    }
+    
+    .market-container .place {
+        font-size: 18px;
+        line-height: 1;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .fa-arrow-right-long{
+        display: none;
+    }
+    .market-container .procedure-card {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .market-container .Details {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    .market-container .Details .h2 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    
+    .market-container .carbon-projects {
+        margin-top: 30px;
+    }
+    
+    .market-container .carbon-projects .topper {
+        text-align: center;
+    }
+    
+    .market-container .carbon-projects .topper .h1 {
+        font-size: 24px;
+        line-height: 1;
+        margin-bottom: 10px;
+    }
+    
+    .market-container .carbon-projects .topper .pp {
+        font-size: 14px;
+        line-height: 1;
+        margin-bottom: 20px;
+    }
+    
+    .market-container .carbon-projects .all-lists {
+        display: none;
+    }
+    
+    .market-container .carbon-project-list {
+        padding: 0;
+    }
+    
+    .market-container .carbon-project-list .list {
+        margin: 0;
+    }
+    
+    .market-container .carbon-project-list .one {
+        width: 100%;
+        max-width: 100%;
+        margin: 20px 0;
+        text-align: center;
+    }
+    
+    .market-container .carbon-project-list .one .image {
+        display: block;
+        margin: 0 auto 10px;
+    }
+    
+    .market-container .carbon-project-list .one img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .market-container .carbon-project-list .one .details {
+        text-align: center;
+    }
+    
+    .market-container .carbon-project-list .one .details .project {
+        font-size: 16px;
+        margin-bottom: 5px;
+        display: block;
+    }
+    
+    .market-container .carbon-project-list .one .details .icon {
+        font-size: 12px;
+        margin-bottom: 5px;
+        display: block;
+    }
+    
+    .market-container .carbon-project-list .one .details .location,
+    .market-container .carbon-project-list .one .details .type {
+        font-size: 12px;
+        margin-bottom: 5px;
+        display: block;
+    }
+    
+    .market-container .carbon-project-list .one .details .href {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    
+    .market-container .carbon-project-list .sign-up {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .carbon-project-list {
+        margin: 0 0;
+        width: 100%;
+        padding: 0 0;
+    } 
+    .one {
+        width: 100%;
+        height: 60vh;
+        max-width: 100px;
+        display: block;
+    }
+    .list{
+        width: 90%;
+    }
+    .image img{
+        width: 80%;
+        height: auto;
+    }
+    .sign-up{
+        width: 100%;
+        margin: 0 2%;
+    }
+    .card-1, .card-2, .card-3 {
+        width: 80%;
+    }
+    a.icon{
+        margin-left: 25%;
+    }
+    .details{
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        padding: 10px 10px;
+    }
+    .project{
+        margin: 10px 0;
+        font-size: 20px;
+        text-decoration: none;
+        color: #000;
+        font-weight: bolder;
+    }
+    .icon{
+        margin: 10px 0;
+        padding: 5px 20px;
+        color: #fff;
+        width: 60%;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 20px;
+        background: rgb(17,66,17, .3);
+    }
+    .location{
+        font-size: 15px;
+        padding-bottom: 0;
+        padding-top: 5%;
+    }
+    .type{
+        padding-top: 0;
+        margin-top: 0;
+    }
+    .href{
+        margin-top: 0;    
+    }
+    .hr-p a{
+        font-size: 16px;
+    }
+    .sign-up h3{
+        font-size: 14px;
+    }
+    a.project{
+        font-size: 14px;
+    }
+}       

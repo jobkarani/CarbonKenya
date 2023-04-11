@@ -72,19 +72,23 @@ z-index: 99;
 }
 .ones h4{
     color: grey;
+    text-transform: capitalize;
 }
 .work{
     align-items: center;
-    display: flex;
-    padding: 10px 100px;
-    background-color: rgb(7, 7, 32);
-    /* position: sticky;
-   top: 10px; */
+    display: block;
+    padding: 10px 100px;background: linear-gradient(217deg, rgb(7, 7, 32)60%, rgb(173, 255, 47)100%);
 }
 .work-1{
-   width: 50%;
+   width: 100%;
    padding: 0 5%;
+   padding-top: 50px;
+   display: flex;
    
+}
+.dettails{
+    width: 100%;
+    padding-bottom: 50px;
 }
 .work-1 h3{
     font-weight: 300;
@@ -110,11 +114,17 @@ z-index: 99;
     padding: 10px 0;
 }
 .work-2{
-    width: 50%;
-    padding: 0 5%; 
+    width: 100%;
+    padding: 0 3%;
+    display: flex; 
+    gap: 50px;
     /* overflow-y: auto;
     position: relative;
     top: 0; */
+}
+.how-it-works{
+    gap: 100px;
+    width: 70%;
 }
 .work-2 h3{
     color:rgb(22, 48, 22) ;
@@ -381,6 +391,10 @@ color: #fff;
 @media only screen and (max-width: 500px) {
     .cover-image{
         height: 50vh;
+   }
+   .ones img{
+    height: 13vh;
+    width: 20vw;
    }
     .content{
         height: 50vh;
