@@ -12,7 +12,7 @@
 }
 
 .p-one{
-    color: #fff;
+    color: yellowgreen;
     font-size: 34px;
     font-weight: 700;
     letter-spacing: 2px;
@@ -43,13 +43,13 @@
 
 .value{
     padding: 2% 8%;
-    background: rgb(7, 7, 32);
+    background: linear-gradient(127deg, rgb(7, 7, 32)40%, rgb(173, 255, 47)100%);
 }
 
 .h-values{
     font-size: 34px;
     font-weight: 700;
-    color: #fff;
+    color: yellowgreen;
     padding: 2% 0;
 }
 
@@ -106,7 +106,6 @@
 .nesh img{
     height: 42vh;
     width: 20vw;
-    
 }
 .nesh h3{
     color: grey;
@@ -228,12 +227,13 @@
   @media only screen and (max-width: 500px) {
     .top-banner {
         height: 50vh;
-      }
+    }
     .top-banner .bg{
-        height: 50vh;
+        height: 60vh;
+        padding: 15% 0;
     }
     .p-one{
-        margin-top: 2%;
+        margin-top: 0;
     }
     .top-banner {
         height: 40vh;
@@ -242,7 +242,10 @@
           height: 40vh;
       }
       .mission{
-        padding: 2% 4%;
+        padding: 15% 4%;
+    }
+    .value{
+        padding: 15% 5%;
     }
     .values {
         margin-bottom: 40px;
@@ -251,8 +254,8 @@
         display: flex;
         display: -ms-grid;
         display: grid;
-        -ms-grid-columns: (350px);
-        grid-template-columns: repeat(1, 350px);
+        -ms-grid-columns: (300px);
+        grid-template-columns: repeat(1, 300px);
         justify-content: center;
         grid-gap: 25px;
       }
@@ -260,8 +263,22 @@
         text-align: center;
       }
       .team-head{
-        padding-top: 0px;
+        font-size: 26px;
+        font-weight: 700;
+        padding-top: 30px;
     }
+
+    .nesh h2{
+        font-size: 28px;
+        font-weight: 500;
+    }
+
+    .nesh h3{
+        color: grey;
+        font-size: 22px;
+        font-weight: 700;
+    }
+
     .nesh img {
         height: 30vh;
         width: 62vw;
@@ -278,7 +295,8 @@
         margin-left: 5%;;
     }
     .all h2{
-        padding-bottom: 20px;
+        padding-bottom: 26px;
+        font-weight: 700;
     }
 
 }
