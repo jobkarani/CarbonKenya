@@ -25,13 +25,8 @@ header{
     padding-bottom: 5px;
   }
 
-  .img{
-    height: 5vh;
-  }
-
   .img img{
     width: 5vw;
-    height: 5vh;
   }
 
   .nav-logo {
@@ -191,6 +186,10 @@ header{
         text-decoration: none;
     }
 
+    .img img{
+      display: none;
+    }
+
     .four{
       display: none;
     }
@@ -343,6 +342,10 @@ header{
         font-family: 'add light';
         color: #fff;
         text-decoration: none;
+    }
+    
+    .img img{
+      display: none;
     }
 
     .four{
