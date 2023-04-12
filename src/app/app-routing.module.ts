@@ -21,6 +21,12 @@ const routes: Routes = [
     canActivate: [],
     loadChildren: ()=> import('./market-place/market-place.module').then((m)=>m.MarketPlaceModule)
   },
+
+  {
+    path: 'enquire',
+    canActivate: [],
+    loadChildren: ()=> import('./contact/contact.module').then((m)=>m.ContactModule)
+  },
   
 ];
 
