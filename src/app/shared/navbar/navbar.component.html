@@ -1,9 +1,14 @@
 <header>
     <div class="container-full">
 
-      <div class="nav-logo one">
-        <a class="logo" routerLink="/home">Rafiki<span>Africa</span></a> <br>
-        <a class="logg" routerLink="/home">Carbon Market</a>
+      <div class="logos">
+        <!-- <div class="img">
+          <img src="../../../assets/images/africangenlogo2-removebg-preview.png" alt="">
+        </div> -->
+        <div class="nav-logo one">
+          <a class="logo" routerLink="/home">Rafiki<span>Carbon</span></a> <br>
+          <a class="logg" routerLink="/home">Market</a>
+        </div>
       </div>
 
       <div class="flexa">
@@ -16,23 +21,15 @@
         <div class="menu" [class.menuClass]="menuVar">
           <ul>
             <li class="li"><a class="nav-link active" routerLink="/home" routerLinkActive="active-link" ariaCurrentWhenActive="page">Home</a></li>
-            <li class="li"><a class="nav-link" routerLink="/experience" routerLinkActive="active-link" ariaCurrentWhenActive="page">Product</a></li>
-            <li class="li dropdown">
-              <a class="nav-link" role="button" id="companyDropdown" data-bs-toggle="dropdown" aria-expanded="false">Company <i class="fa-solid fa-caret-down"></i></a>
-              <ul class="dropdown-menu" aria-labelledby="companyDropdown">
-                <li><a class="dropdown-item" routerLink="/about" routerLinkActive="active-link" ariaCurrentWhenActive="page">About Us</a></li>
-                <li><a class="dropdown-item" href="#">News</a></li>
-                <li><a class="dropdown-item" href="#">Careers</a></li>
-              </ul>
-            </li>
-            <li class="li"><a class="nav-link" routerLink="/market-place" routerLinkActive="active-link" ariaCurrentWhenActive="page">Buy Credits</a></li>
+            <li class="li"><a class="nav-link" routerLink="/market-place/comingsoon" routerLinkActive="active-link" ariaCurrentWhenActive="page">Products</a></li>
+            <li class="li"><a class="nav-link" routerLink="/about" routerLinkActive="active-link" ariaCurrentWhenActive="page">About Us</a></li>
+            <li class="li"><a class="nav-link" routerLink="/market-place/adopters" routerLinkActive="active-link" ariaCurrentWhenActive="page">Buy Credits</a></li>
           </ul>
 
           <div class="contact three">
             <button class="btn-1"> Make an Enquiry</button>
           </div>
         </div>
-
         </div>
         <div class="contact four">
           <button class="btn-1"> Make an Enquiry</button>

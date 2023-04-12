@@ -8,11 +8,15 @@
   }
 body,html{
     height: 100%;
-    /* font-family: 'Merriweather', serif; */
-    /* font-family: 'Open Sans', sans-serif; */
     overflow-x: hidden;
     overflow-y: auto;
     margin: 0;
     padding: 0;
+}
+
+.blue-snackbar {
+  --mdc-snackbar-container-color: rgb(173, 255, 47);
+  --mat-mdc-snack-bar-button-color: rgb(7, 7, 32);
+  --mdc-snackbar-supporting-text-color: rgb(7, 7, 32);
 }
 /* body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; } */

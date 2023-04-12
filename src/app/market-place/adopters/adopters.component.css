@@ -1,0 +1,196 @@
+.container-full{
+    padding: 5% 10%;
+    /* background: linear-gradient(to bottom, rgb(7, 7, 32)10%, rgb(173, 255, 47)100%); */
+}
+
+form{
+    padding: 20px 30px;
+    background: rgb(255,255,255, .4);
+    border-radius: 10px;
+}
+
+.nike{
+    margin: 10px 0;
+}
+
+label{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.sele{
+    font-weight: bolder;
+}
+
+.btn{
+    margin-left: 33%;
+    background-color: rgb(7, 7, 32);
+    font-weight: 500;
+    font-size: 20px;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.btn:hover{
+    background-color: transparent;
+    border: 1px solid rgb(7, 7, 32);
+    color: rgb(7, 7, 32);
+}
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid rgb(7, 7, 32);
+    border-radius: 15px;
+    background-color: #fff;
+    width: 50%;
+    margin-bottom: 5%;
+    margin-left: 20%;
+    gap: 1px;
+  }
+  
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 22px;
+    width: 49.5%;
+    color: #fff;
+  }
+
+  .tab .uno{
+    float: right;
+    border-radius: 15px 0 0 15px;
+  }
+
+  .tab .dos{
+    border-radius: 0 15px 15px 0;
+  }
+
+  .tab button {
+    background-color: #fff;
+    color: rgb(7, 7, 32);
+    border: 1px solid #070720;
+    border-bottom: none;
+    border-top: none;
+  }
+
+  .tab button:hover {
+    background-color: #fff;
+    color: rgb(7, 7, 32);
+    border: 1px solid #070720;
+    border-bottom: none;
+    border-top: none;
+  }
+  
+  .tab button.active {
+    background-color: rgb(173, 255, 47);
+    border: none;
+    color: #fff;
+  }
+
+  .tabcontent {
+    display: none;
+    padding: 6px 8%;
+    border: 1px solid rgb(7, 7, 32);
+    width: 80%;
+    margin-left: 8%;
+  }
+
+  .ones{
+    display: block;
+  }
+
+  .h1{
+    text-align: center;
+    margin: 10px 0;
+    font-size: 26px;
+    font-weight: 600;
+    text-transform: capitalize;
+  }
+
+@media only screen and (max-width: 850px) {
+    .tab {
+        overflow: hidden;
+        border: 1px solid rgb(7, 7, 32);
+        border-radius: 15px;
+        background-color: #fff;
+        width: 100%;
+        margin-bottom: 5%;
+        margin-left: 0;
+        gap: 1px;
+    }
+
+    .tabcontent {
+        padding: 6px 8%;
+        border: 1px solid rgb(7, 7, 32);
+        width: 100%;
+        margin-left: 0;
+    }
+    .btn{
+        margin-left: 28%;
+        padding: 10px 20px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .container-full{
+        margin-top: 0;
+        padding: 10% 2%;
+    }
+
+    .h1{
+        font-size: 20px;
+        font-weight: 600;
+      }
+
+    label{
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+    .btn{
+        padding: 10px 20px;
+        margin-left: 10%;
+        background-color: rgb(7, 7, 32);
+        font-weight: 500;
+        font-size: 16px;
+        color: #fff;
+    }
+
+    .tab {
+        overflow: hidden;
+        border: 1px solid rgb(7, 7, 32);
+        border-radius: 15px;
+        background-color: #fff;
+        width: 95%;
+        margin-bottom: 5%;
+        margin-left: 0;
+        gap: 1px;
+    }
+
+    .tab button {
+        background-color: inherit;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 14px 16px;
+        transition: 0.3s;
+        font-size: 12px;
+        width: 50%;
+        color: #fff;
+    }
+
+    .tab button {
+        background-color: #fff;
+        color: rgb(7, 7, 32);
+        border: 1px solid #070720;
+        border-bottom: none;
+        border-top: none;
+    }
+}
