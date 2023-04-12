@@ -161,8 +161,8 @@ app-navbar{
     text-align: center;
 }
 .cards-0{
+    padding: 0 40% !important;
     width: 100%;
-    display: flex;
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: (270px);
