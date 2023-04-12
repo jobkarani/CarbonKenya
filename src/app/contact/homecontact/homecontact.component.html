@@ -1,1 +1,67 @@
-<p>homecontact works!</p>
+<app-navbar></app-navbar>
+<section class="contact-page-section">
+    <div class="container">
+        <div class="sec-title">
+              <h2>Let's Get in Touch.</h2>
+          </div>
+          <div class="inner-container">
+            <div class="row clearfix">
+              
+                <!--Form Column-->
+                  <div class="form-column col-md-8 col-sm-12 col-xs-12">
+                    <div class="inner-column">
+                        
+                          <!--Contact Form-->
+                          <div class="contact-form">
+                              <form method="post" action="" [formGroup]="contactFormGroup" id="contact-form">
+                                  <div class="row clearfix">
+                                      <div class="form-group col-md-6 col-sm-6 co-xs-12">
+                                          <input type="text" name="name" value="" placeholder="Name" formControlName="name" required>
+                                      </div>
+                                      <div class="form-group col-md-6 col-sm-6 co-xs-12">
+                                          <input type="email" name="email" value="" placeholder="Email" formControlName="email" required>
+                                      </div>
+                                      <div class="form-group col-md-6 col-sm-6 co-xs-12">
+                                          <input type="text" name="subject" value="" placeholder="Subject" formControlName="subject" required>
+                                      </div>
+                                      <div class="form-group col-md-6 col-sm-6 co-xs-12">
+                                          <input type="text" name="phone" value="" placeholder="Phone" formControlName="phone" required>
+                                      </div>
+                                      <div class="form-group col-md-12 col-sm-12 co-xs-12">
+                                          <textarea name="message" placeholder="Massage" formControlName="message"></textarea>
+                                      </div>
+                                      <div class="form-group col-md-12 col-sm-12 co-xs-12">
+                                          <button (click)="onSubmit()" type="submit" class="theme-btn btn-style-one">Send Now</button>
+                                      </div>
+                                  </div>
+                              </form>
+                          </div>
+                          <!--End Contact Form-->
+                          
+                      </div>
+                  </div>
+                  
+                  <!--Info Column-->
+                  <div class="info-column col-md-4 col-sm-12 col-xs-12">
+                    <div class="inner-column">
+                        <h2>Contact Info</h2>
+                          <ul class="list-info">
+                            <li><i class="fas fa-globe"></i>Nairobi, Kenya.</li>
+                              <li><i class="far fa-envelope"></i>njerubrianmunene@gmail.com <br> jobkarani084j@gmail.com</li>
+                              <li><i class="fas fa-phone"></i>+254794898489 <br> +254707367650</li>
+                          </ul>
+                          <ul class="social-icon-four">
+                              <li class="follow">Follow on: </li>
+                              <li><a href="https://www.instagram.com/rafikiafricacarbonmarket/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                              <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                              <li><a href="#" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                          </ul>
+                      </div>
+                  </div>
+                  
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <app-footer></app-footer>
