@@ -165,8 +165,8 @@ app-navbar{
     width: 100%;
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (270px);
-    grid-template-columns: repeat(5, 270px);
+    -ms-grid-columns: (250px);
+    grid-template-columns: repeat(5, 250px);
     justify-content: center;
     grid-gap: 15px;
 }
