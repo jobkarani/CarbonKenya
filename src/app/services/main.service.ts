@@ -20,15 +20,6 @@ export class MainService {
     private _snackBar: MatSnackBar
   ) {}
 
-
-  // createOffsetter(offsetter: Offsetter) {
-  //   return this.http.post('https://luxury-villasbe.up.railway.app/bookings/', offsetter);
-  // }
-
-  // createEmitter(emitter: Emitter) {
-  //   return this.http.post('https://luxury-villasbe.up.railway.app/bookings/', emitter);
-  // }
-
   makeAnyDataGetRequest(fullUrl: string): Observable<any> {
     return this.http.get<any>(fullUrl);
   }

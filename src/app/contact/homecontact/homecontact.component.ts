@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { Meta } from '@angular/platform-browser';
 import { Router } from '@angular/router';
 import { Contact } from 'src/app/interfaces/contact';
 import { MainService } from 'src/app/services/main.service';
@@ -18,7 +19,8 @@ export class HomecontactComponent implements OnInit{
   constructor(
     private router: Router,
     private _formBuilder: FormBuilder,
-    private mainService: MainService
+    private mainService: MainService,
+    private meta: Meta
   ) {
     this.contactFormGroup = _formBuilder.group({
       name: ['', Validators.required],
@@ -29,7 +31,12 @@ export class HomecontactComponent implements OnInit{
     });
   }
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    this.meta.addTags([ 
+      { name: 'description', content: 'This an African Carbon Market' }, 
+      { name: 'keywords', content: 'rafiki carbon, rafiki carbon market, kenyan carbon market, rafiki, carbon market, net zero, net zero africa, african carbon' } 
+  ]);
+  }
 
   onSubmit() {
     if (!this.contactFormGroup.valid) {

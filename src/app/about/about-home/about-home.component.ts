@@ -1,10 +1,20 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { Meta } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-about-home',
   templateUrl: './about-home.component.html',
   styleUrls: ['./about-home.component.css']
 })
-export class AboutHomeComponent {
+export class AboutHomeComponent implements OnInit {
+
+  constructor(private meta: Meta) {}
+
+  ngOnInit() {
+    this.meta.addTags([ 
+      { name: 'description', content: 'This an African Carbon Market' }, 
+      { name: 'keywords', content: 'rafiki carbon, rafiki carbon market, kenyan carbon market, rafiki, carbon market, net zero, net zero africa, african carbon' } 
+  ]);
+  }
 
 }

@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { Meta } from '@angular/platform-browser';
 import { Router } from '@angular/router';
 import { Emitter } from 'src/app/interfaces/emitter';
 import { Offsetter } from 'src/app/interfaces/offsetter';
@@ -21,7 +22,8 @@ export class AdoptersComponent implements OnInit {
   constructor(
     private router: Router,
     private _formBuilder: FormBuilder,
-    private mainService: MainService
+    private mainService: MainService,
+    private meta: Meta
   ) {
     this.offsetterFormGroup = _formBuilder.group({
       project_name: ['', Validators.required],
@@ -42,7 +44,12 @@ export class AdoptersComponent implements OnInit {
     });
   }
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    this.meta.addTags([ 
+      { name: 'description', content: 'This an African Carbon Market' }, 
+      { name: 'keywords', content: 'rafiki carbon, rafiki carbon market, kenyan carbon market, rafiki, carbon market, net zero, net zero africa, african carbon' } 
+  ]);
+  }
 
   onSubmitOffsetter() {
     if (!this.offsetterFormGroup.valid) {
