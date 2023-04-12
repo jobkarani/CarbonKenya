@@ -104,8 +104,8 @@
     gap: 80px;
 }
 .nesh img{
-    height: 42vh;
-    width: 20vw;
+    height: 50vh;
+    width: 100%;
 }
 .nesh h3{
     color: grey;
@@ -192,9 +192,9 @@
       margin-bottom: 20px;
       text-align: center;
     }
-    .nesh img {
-        height: 38vh;
-        width: 42vw;
+    .nesh img{
+        height: 40vh;
+        width: 100%;
     }
     .nesh h2 {
         padding-top: 10px;
@@ -268,6 +268,12 @@
         padding-top: 30px;
     }
 
+    .team{
+        text-align: center;
+        margin: 0 0;
+        gap: 0;
+    }
+
     .nesh h2{
         font-size: 28px;
         font-weight: 500;
@@ -279,9 +285,9 @@
         font-weight: 700;
     }
 
-    .nesh img {
-        height: 30vh;
-        width: 62vw;
+    .nesh img{
+        height: 40vh;
+        width: 100%;
     }
     .images{
         width: 70% !important;
