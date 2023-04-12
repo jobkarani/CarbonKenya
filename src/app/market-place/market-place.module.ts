@@ -7,6 +7,8 @@ import { MarketRoutingModule } from './market-routing.module';
 import { MarketDetailsComponent } from './market-details/market-details.component';
 import { ErrorpageComponent } from './errorpage/errorpage.component';
 import { AdoptersComponent } from './adopters/adopters.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { ReturnmsgComponent } from './returnmsg/returnmsg.component';
 
 
 
@@ -16,12 +18,15 @@ import { AdoptersComponent } from './adopters/adopters.component';
     HomeMarketComponent,
     MarketDetailsComponent,
     ErrorpageComponent,
-    AdoptersComponent
+    AdoptersComponent,
+    ReturnmsgComponent
   ],
   imports: [
     CommonModule,
     SharedModule,
-    MarketRoutingModule
+    MarketRoutingModule,
+    ReactiveFormsModule,
+    FormsModule,
   ]
 })
 export class MarketPlaceModule { }

@@ -44,7 +44,6 @@ header{
       font-weight: 800;
       font-family: 'add light';
       letter-spacing: 1.16px;
-      line-height: 3.28px;
       font-style: italic;
       color: yellowgreen;
       text-decoration: none;
@@ -55,7 +54,6 @@ header{
       font-weight: 800;
       font-family: 'add light';
       letter-spacing: 1.16px;
-      line-height: 3.28px;
       font-style: italic;
       color: #d9ede6;
       text-decoration: none;
@@ -168,9 +166,8 @@ header{
         font-weight: 800;
         font-family: 'add light';
         letter-spacing: 1.16px;
-        line-height: 3.28px;
         font-style: italic;
-        color: #99d2d5;
+        color: yellowgreen;
         text-decoration: none;
         font-weight: 600;
     }
@@ -179,16 +176,15 @@ header{
         font-weight: 800;
         font-family: 'add light';
         letter-spacing: 1.16px;
-        line-height: 3.28px;
         font-style: italic;
         color: #d9ede6;
         text-decoration: none;
     }
   
     .logg{
-        margin-left: 5%;
-        font-size:12px;
-        font-weight: 800;
+        margin-left: 60%;
+        font-size: 16px;
+        font-weight: 500;
         font-family: 'add light';
         color: #fff;
         text-decoration: none;
@@ -314,18 +310,18 @@ header{
 
     .nav-logo {
       width: 40%;
-      margin-top: 2%;
+      margin-top: -15%;
       margin-left: 5%;
       padding: 0 0;
     }
+
     .nav-logo .logo {
         font-size: 20px;
         font-weight: 800;
         font-family: 'add light';
         letter-spacing: 1.16px;
-        line-height: 3.28px;
         font-style: italic;
-        color: #99d2d5;
+        color: yellowgreen;
         text-decoration: none;
         font-weight: 600;
     }
@@ -334,16 +330,15 @@ header{
         font-weight: 800;
         font-family: 'add light';
         letter-spacing: 1.16px;
-        line-height: 3.28px;
         font-style: italic;
         color: #d9ede6;
         text-decoration: none;
     }
   
     .logg{
-        margin-left: 5%;
-        font-size:12px;
-        font-weight: 800;
+        margin-left: 15%;
+        font-size: 16px;
+        font-weight: 500;
         font-family: 'add light';
         color: #fff;
         text-decoration: none;

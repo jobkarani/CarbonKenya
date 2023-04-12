@@ -1,1 +1,187 @@
-<p>adopters works!</p>
+<app-navbar></app-navbar>
+<div class="container-full">
+  <div class="tab">
+    <button class="tablinks dos active" onclick="openForm(event, 'emitter')">For Emitters</button>
+    <button class="tablinks uno" onclick="openForm(event, 'offsetter')">For Project Developers</button>
+  </div>
+
+    <form id="emitter" action="" class="tabcontent ones active" [formGroup]="emitterFormGroup">
+      <p class="h1">Offset</p>
+      <div class="nike form-row">
+        <div class="form-group col-12">
+          <label for="inputCompanyName">Company Name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="inputCompanyName"
+            placeholder="Company Name"
+            formControlName="company_name"
+          />
+        </div>
+      </div>
+  
+      <div class="nike form-row">
+        <div class="form-group col-12">
+          <label for="inputemail">Email</label>
+          <input
+            type="email"
+            class="form-control"
+            id="inputemail"
+            placeholder="email"
+            formControlName="email"
+          />
+        </div>
+      </div>
+  
+      <div class="nike form-row">
+        <div class="form-group col-12 ">
+            <label for="inputphone">Phone Number</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputphone"
+              placeholder="Phone"
+              formControlName="phone"
+            />
+          </div>
+      </div>
+
+      <div class="nike form-row">
+        <div class="form-group col-12 ">
+            <label for="inputcountry">Country</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputcountry"
+              placeholder="Country"
+              formControlName="country"
+            />
+          </div>
+      </div>
+
+      <div class="nike form-row">
+        <div class="form-group col-12 ">
+            <label for="inputproject">What type of project do you want to buy from?</label>
+            <select id="inputproject" placeholder="Project Type" class="form-control" formControlName="project_type">
+                <option class="sele" selected>Choose Project Type</option>
+                <option>REDD+</option>
+                <option>Blue Carbon</option>
+                <option>Cook Stoves and Fuel Switching</option>
+                <option>Agroforestry</option>
+                <option>Soil Carbon</option>
+                <option>Industrial Efficiency</option>
+                <option>C02 Utilization</option>
+                <option>Biochar</option>
+                <option>Direct Air capture</option>
+                <option>Carbon Capture and Storage</option>
+            </select>
+          </div>
+      </div>
+
+      <div class="nike form-group">
+        <label for="inputMoreProjects">Interested in several project types?</label>
+        <textarea
+          type="text"
+          class="form-control"
+          id="inputMoreProjects"
+          placeholder="List them here ..."
+          formControlName="more_projects"
+        >
+        </textarea>
+      </div>
+      <a  (click)="onSubmitEmitter()" type="submit" class="nike btn">
+        Become an Early Adopter
+      </a>
+    </form>
+
+    <form id="offsetter" class="tabcontent" action="" [formGroup]="emitterFormGroup">
+      <p class="h1">List a project</p>
+        <div class="nike form-row">
+          <div class="form-group col-12">
+            <label for="inputProjectName">Project Name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputProjectName"
+              placeholder="Project Name"
+              formControlName="project_name"
+            />
+          </div>
+        </div>
+    
+        <div class="nike form-row">
+          <div class="form-group col-12">
+            <label for="inputemail">Email</label>
+            <input
+              type="email"
+              class="form-control"
+              id="inputemail"
+              placeholder="email"
+              formControlName="email"
+            />
+          </div>
+        </div>
+    
+        <div class="nike form-row">
+          <div class="form-group col-12 ">
+              <label for="inputphone">Phone Number</label>
+              <input
+                type="text"
+                class="form-control"
+                id="inputphone"
+                placeholder="Phone"
+                formControlName="phone"
+              />
+            </div>
+        </div>
+
+        <div class="nike form-row">
+            <div class="form-group col-12 ">
+                <label for="inputcountry">Country</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="inputcountry"
+                  placeholder="Country"
+                  formControlName="country"
+                />
+              </div>
+          </div>
+  
+        <div class="nike form-row">
+          <div class="form-group col-12 ">
+              <label for="inputproject">What type of project are you developing?</label>
+              <select id="inputproject" placeholder="Project Type" class="form-control" formControlName="project_type">
+                  <option class="sele" selected>Choose Project Type</option>
+                  <option>REDD+</option>
+                  <option>Blue Carbon</option>
+                  <option>Cook Stoves and Fuel Switching</option>
+                  <option>Agroforestry</option>
+                  <option>Soil Carbon</option>
+                  <option>Industrial Efficiency</option>
+                  <option>C02 Utilization</option>
+                  <option>Biochar</option>
+                  <option>Direct Air capture</option>
+                  <option>Carbon Capture and Storage</option>
+              </select>
+            </div>
+        </div>
+  
+        <div class="nike form-group">
+          <label for="inputMoreProjects">Have several projects?</label>
+          <textarea
+            type="text"
+            class="form-control"
+            id="inputMoreProjects"
+            placeholder="List them here ..."
+            formControlName="more_projects"
+          >
+          </textarea>
+        </div>
+        <a  (click)="onSubmitOffsetter()" type="submit" class="nike btn">
+          Become an Early Adopter
+        </a>
+      </form>
+  </div>
+
+<app-footer></app-footer>
