@@ -153,8 +153,8 @@ header{
 
     .nav-logo {
       width: 40%;
-      margin-top: 2%;
-      margin-left: 5%;
+      margin-top: 0;
+      margin-left: 2%;
       padding: 0 0;
     }
     .nav-logo .logo {
@@ -178,7 +178,7 @@ header{
     }
   
     .logg{
-        margin-left: 60%;
+        margin-left: 90%;
         font-size: 16px;
         font-weight: 500;
         font-family: 'add light';
@@ -186,8 +186,13 @@ header{
         text-decoration: none;
     }
 
+    .img{
+      margin-top: -5%;
+    }
+    
     .img img{
-      display: none;
+      width: 10vw;
+      height: 8vh;
     }
 
     .four{
@@ -310,8 +315,8 @@ header{
 
     .nav-logo {
       width: 40%;
-      margin-top: -15%;
-      margin-left: 5%;
+      margin-top: -10%;
+      margin-left: 2%;
       padding: 0 0;
     }
 
@@ -336,16 +341,21 @@ header{
     }
   
     .logg{
-        margin-left: 155%;
+        margin-left: 105%;
         font-size: 16px;
         font-weight: 500;
         font-family: 'add light';
         color: #fff;
         text-decoration: none;
     }
+
+    .img{
+      margin-top: -15%;
+    }
     
     .img img{
-      display: none;
+      width: 15vw;
+      height: 10vh;
     }
 
     .four{
@@ -398,7 +408,7 @@ header{
     }
   
     .menu-icon span{
-      width: 42px;
+      width: 35px;
       height: 4px;
       margin-top: 5px;
       background: #fff !important;
