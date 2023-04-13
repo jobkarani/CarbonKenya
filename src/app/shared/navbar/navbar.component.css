@@ -186,9 +186,9 @@ header{
         text-decoration: none;
     }
 
-    /* .img img{
+    .img img{
       display: none;
-    } */
+    }
 
     .four{
       display: none;
@@ -336,7 +336,7 @@ header{
     }
   
     .logg{
-        margin-left: 60%;
+        margin-left: 155%;
         font-size: 16px;
         font-weight: 500;
         font-family: 'add light';
