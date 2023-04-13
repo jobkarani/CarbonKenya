@@ -58,8 +58,7 @@
     padding-top: 2%;
     padding-bottom: 5%;
     padding-left: 10%;
-    padding-right: 10%;
-    background-color: red;
+    padding-right: 15%;
 }
 
 .goals{
@@ -181,9 +180,18 @@
         padding: 0 5%;
         letter-spacing: 2px;
     }
+
+    .sustain{
+        padding-top: 2%;
+        padding-bottom: 5%;
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%;
+    }
    
     .goals{
         display: block;
+        margin: 0 3%;
         gap: 90px;
     }
     .goals img{
@@ -267,7 +275,9 @@
     .sustain{
         padding-top: 2%;
         padding-bottom: 5%;
-        margin: 0 8%;
+        padding-left: 5%;
+        padding-right: 5%;
+        width: 100%;
     }
     .goals{
         display: block;
