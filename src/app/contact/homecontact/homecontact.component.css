@@ -207,6 +207,15 @@ ul {
 }
 
 @media only screen and (max-width: 850px) {
+  .inner-container{
+    display: block !important;
+    width: 100%;
+  }
+
+  .form-column, .info-column{
+    width: 100%;
+  }
+
   .contact-page-section .info-column{
     background: linear-gradient(to bottom, rgb(7, 7, 32)40%, rgb(173, 255, 47)100%);
   }
