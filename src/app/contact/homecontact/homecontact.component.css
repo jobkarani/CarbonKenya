@@ -205,3 +205,9 @@ ul {
 .social-icon-four li a:hover {
   color: #222
 }
+
+@media only screen and (max-width: 850px) {
+  .contact-page-section .info-column{
+    background: linear-gradient(to bottom, rgb(7, 7, 32)40%, rgb(173, 255, 47)100%);
+  }
+}
