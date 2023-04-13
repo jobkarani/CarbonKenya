@@ -266,7 +266,7 @@
     }
     .goals{
         display: block;
-        margin-left: 4%;
+        /* margin-left: %; */
         gap: 90%;
     }
     .goals img{
