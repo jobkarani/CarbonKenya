@@ -1,11 +1,11 @@
 <app-navbar></app-navbar>
 <div class="container-full">
-  <div class="tab">
+  <!-- <div class="tab">
     <button class="tablinks dos active" onclick="openForm(event, 'emitter')">For Emitters</button>
     <button class="tablinks uno" onclick="openForm(event, 'offsetter')">For Project Developers</button>
-  </div>
+  </div> -->
 
-    <form id="emitter" action="" class="tabcontent ones active" [formGroup]="emitterFormGroup">
+    <!-- <form id="emitter" action="" class="tabcontent ones active" [formGroup]="emitterFormGroup">
       <p class="h1">Offset</p>
       <div class="nike form-row">
         <div class="form-group col-12">
@@ -92,7 +92,7 @@
       <a  (click)="onSubmitEmitter()" type="submit" class="nike btn">
         Become an Early Adopter
       </a>
-    </form>
+    </form> -->
 
     <form id="offsetter" class="tabcontent" action="" [formGroup]="emitterFormGroup">
       <p class="h1">List a project</p>
@@ -116,7 +116,7 @@
               type="email"
               class="form-control"
               id="inputemail"
-              placeholder="email"
+              placeholder="Contact Email"
               formControlName="email"
             />
           </div>
@@ -168,18 +168,18 @@
         </div>
   
         <div class="nike form-group">
-          <label for="inputMoreProjects">Have several projects?</label>
+          <label for="inputMoreProjects">Provide the projects details?</label>
           <textarea
             type="text"
             class="form-control"
             id="inputMoreProjects"
-            placeholder="List them here ..."
+            placeholder="Tell us more ..."
             formControlName="more_projects"
           >
           </textarea>
         </div>
         <a  (click)="onSubmitOffsetter()" type="submit" class="nike btn">
-          Become an Early Adopter
+          Gain Early Access
         </a>
       </form>
   </div>
