@@ -41,11 +41,11 @@ app-navbar{
     font-size: 20px;
 }
 
-.descript-1{
-   padding-top: 100px;
-   padding-bottom: 30px;
-   text-align:center;
-   color: rgb(17, 66, 17);
+.hone{
+    padding-top: 100px;
+    padding-bottom: 30px;
+    text-align:center;
+    color: rgb(17, 66, 17) !important;
 }
 
 .des{
@@ -57,7 +57,7 @@ app-navbar{
 
 .all{
     display: flex;
-    padding: 0 10%;
+    padding: 0 5%;
     padding-bottom: 50px;
 }
 
@@ -71,22 +71,21 @@ app-navbar{
     height: 22vh;
     width: 10vw;
 }
-.ones h3{
+.ones .h3{
     padding: 10px 0;
 }
-.ones h4{
+.ones .h4{
     color: grey;
     text-transform: capitalize;
 }
 .work{
     align-items: center;
     display: block;
-    padding: 10px 100px;
+    padding: 10px 5%;
     background: linear-gradient(200deg, rgb(7, 7, 32)40%, rgb(173, 255, 47)100%);
 }
 .work-1{
    width: 100%;
-   padding: 0 1%;
    padding-top: 50px;
    display: flex;
    
@@ -95,44 +94,48 @@ app-navbar{
     width: 100%;
     padding-bottom: 50px;
 }
-.work-1 h3{
-    font-weight: 300;
-    font-size: 38px;
+.work-1 .h33{
+    text-align: center;
     color:  #fff;
 }
 .work-1 h1{
     color:yellowgreen;
 }
 .work-1 p{
-    font-size: 25px;
     color: #fff;
     line-height: 40.4px;
     letter-spacing: 0.16px;
     padding: 10px 0;
-    font-weight: 100;
 }
 .work-2 p{
     color: #fff;
-    font-size: 18px;
     line-height: 30.4px;
     letter-spacing: 0.16px;
     padding: 10px 0;
 }
 .work-2{
+    /* padding: 0 5%; */
     width: 100%;
-    /* padding: 0 3%; */
-    display: flex; 
-    gap: 50px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (450px);
+    grid-template-columns: repeat(3, 450px);
+    justify-content: center;
+    grid-gap: 15px;
 }
 .how-it-works{
     gap: 70px;
     width: 100%;
 }
-.work-2 h3{
+.work-2 .A{
+    text-align: center;
     color:yellowgreen ;
-    font-size: 25px;
     line-height: 24.4px;
     letter-spacing: 0.16px;
+}
+
+.txt{
+    text-align: center;
 }
 
 .work button{
@@ -224,7 +227,6 @@ color: #fff;
     background: url("https://img.freepik.com/free-photo/low-angle-shot-factory-with-smoke-steam-coming-out-chimneys-captured-sunset_181624-44694.jpg?w=740&t=st=1679473180~exp=1679473780~hmac=d442837e8484343b71adf1ce2be2fa65647e6675b74c86a2bc62f56b7ad3db3b");
 }
 
-
 .onez{
     background:rgb(7, 7, 32,.5);
     width: 100%;
@@ -239,7 +241,7 @@ color: #fff;
     text-transform: capitalize;
     font-size: 22px;
 }
-.head-1{
+.head-11{
     width: 100%;
     color: #fff;
     font-size: 22px;
@@ -253,6 +255,24 @@ color: #fff;
     color: #fff;
     font-size: 14px;
     text-decoration: none;
+}
+
+.i-tag{
+    background-color: #fff;
+    border: none;
+    border-radius: 50px;
+    padding: 20px;
+    margin: 20px 30%;
+    text-align: center;
+}
+
+.i-tag:hover{
+    background-color: transparent;
+}
+
+.i-tag i{
+    font-size: 30px;
+    color: yellowgreen;
 }
 
 @media only screen and (max-width: 850px) {
@@ -280,7 +300,6 @@ color: #fff;
     margin-left: 0;
     padding: 20% 4%;
     padding-bottom: 30px;
-    font-size: 50px;
     line-height: 79.8px;
    }
 
@@ -304,13 +323,11 @@ color: #fff;
     margin-left: 0;
     }
      .des h2{
-        font-size: 22px;
         width: 100%;
         align-items: center;
         margin-left: 0;
      }
      .des h4{
-        font-size: 20px;
      } 
     
     .all {
@@ -338,7 +355,6 @@ color: #fff;
         color: grey;
     }
     .ones h5{
-        font-size: 22px;
     }
     .work {
     text-align: center;
@@ -352,11 +368,9 @@ color: #fff;
         height: 16vh;
     }
     .work-2 p{
-        font-size: 25px;
         line-height: 40px;
     }
     .work-1 h3{
-        font-size: 18px;
         padding-top: 50px;
         padding-bottom: 20px;;
     }
@@ -377,14 +391,10 @@ color: #fff;
     .work-1{
         border-bottom: 1px solid grey;
     }
-    .work-2 .A{
-        font-size: 30px;
-    }
 
     .btn-3{
         background-color: rgb(17, 66, 17);
         color: #fff;
-        font-size: 20px;
     }
 
     .card-1{
@@ -408,7 +418,6 @@ color: #fff;
     }
 
     .intro{
-        font-size: 26px;
         color: rgb(17, 66, 17);
         padding: 20px 0;
         text-align: center;
@@ -441,7 +450,6 @@ color: #fff;
     }
 
     .ones h5{
-        font-size: 16px;
     }
 
    .ones img{
@@ -452,15 +460,14 @@ color: #fff;
         height: 50vh;
     }
     .content h1{
-        font-size: 28px;
         line-height: 38px;
         width: 100%;
         margin-left: 0;
         margin: 5% 0;
+        font-size: 20px;
     }
     .btn-2{
         margin-left: 15% !important;
-        font-size: 15px;
         padding: 8px 30px;
     }
 
@@ -469,7 +476,6 @@ color: #fff;
         padding-bottom: 5px;
     }
     .descript-1 h1{
-        font-size: 26px;
     }
     .des{
         padding-bottom: 0;
@@ -480,14 +486,12 @@ color: #fff;
 
      .des h2{
         padding: 0 5%;
-        font-size: 16px;
         width: 100%;
         align-items: center;
         margin-left: 0;
      }
 
      .intro{
-        font-size: 22px;
         color: rgb(17, 66, 17);
         padding: 20px 0;
         text-align: center;
@@ -522,16 +526,13 @@ color: #fff;
     }
 
     .work-1 p{
-        font-size: 16px;
         color: #fff;
         line-height: 40.4px;
         letter-spacing: 0.16px;
         padding: 10px 0;
-        font-weight: 100;
     }
     .work-2 p{
         color: #fff;
-        font-size: 16px;
         line-height: 30.4px;
         letter-spacing: 0.16px;
         padding: 10px 0;
