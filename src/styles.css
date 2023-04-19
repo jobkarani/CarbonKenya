@@ -19,4 +19,67 @@ body,html{
   --mat-mdc-snack-bar-button-color: rgb(7, 7, 32);
   --mdc-snackbar-supporting-text-color: rgb(7, 7, 32);
 }
-/* body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; } */
+
+.head-1{
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.head-2{
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.head-3{
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.p-tag{
+  font-size: 24px;
+  font-weight: 300;
+}
+
+@media only screen and (max-width: 850px) {
+  .head-1{
+    font-size: 28px;
+    font-weight: 800;
+  }
+  
+  .head-2{
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  .head-3{
+    font-size: 20px;
+    font-weight: 400;
+  }
+  
+  .p-tag{
+    font-size: 18px;
+    font-weight: 300;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .head-1{
+    font-size: 26px;
+    font-weight: 800;
+  }
+  
+  .head-2{
+    font-size: 22px;
+    font-weight: 600;
+  }
+  
+  .head-3{
+    font-size: 18px;
+    font-weight: 400;
+  }
+  
+  .p-tag{
+    font-size: 15px;
+    font-weight: 300;
+  }
+}

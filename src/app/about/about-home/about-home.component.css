@@ -13,15 +13,11 @@
 
 .p-one{
     color: yellowgreen;
-    font-size: 34px;
-    font-weight: 700;
     letter-spacing: 2px;
 }
 
 .p-two{
     color: #fff;
-    font-size: 25px;
-    font-weight: 300;
     padding: 0 20%;
     letter-spacing: 2px;
 }
@@ -31,13 +27,10 @@
 }
 
 .miss-head{
-    font-size: 34px;
-    font-weight: 700;
     letter-spacing: 2px;
 }
 
 .miss-desc{
-    font-size: 22px;
     letter-spacing: 1px;
 }
 
@@ -47,8 +40,6 @@
 }
 
 .h-values{
-    font-size: 34px;
-    font-weight: 700;
     color: yellowgreen;
     padding: 2% 0;
 }
@@ -93,15 +84,12 @@
 }
 
 .val-head{
-    font-size: 26px;
-    font-weight: 600;
     color: yellowgreen;
     margin-top: 5%;
     text-transform: capitalize;
 }
 
 .val-desc{
-    font-size: 22px;
     color: #fff;
 }
 
@@ -111,8 +99,6 @@
 }
 
 .team-head{
-    font-size: 34px;
-    font-weight: 700;
     letter-spacing: 2px;
     text-align: center;
     padding-top: 100px;
@@ -134,7 +120,6 @@
 .nesh a{
     color: yellowgreen;
     text-decoration: underline;
-    font-size: 16px;
 }
 
 .all{
@@ -159,6 +144,7 @@
     transition: 2s ease-in-out;
     transition: color .25s;
 }
+
 @media only screen and (max-width: 850px) {
     .container-full {
       padding: 0 0;
@@ -167,17 +153,13 @@
       height: 30vh;
     }
     .p-one {
-      font-size: 24px;
     }
     .top-banner .bg{
         height: 30vh;
     }
     .p-one{
-        font-size: 30px; 
     }
     .p-two {
-      font-size: 20px;
-        font-weight: 300;
         padding: 0 5%;
         letter-spacing: 2px;
     }
@@ -200,7 +182,6 @@
         width: 150px;
     }
     .miss-desc {
-      font-size: 24px;
       font-family: 'Times New Roman', Times, serif;
     }
     .values {
@@ -236,13 +217,10 @@
     }
     .nesh h2 {
         padding-top: 10px;
-      font-size: 28px;
     }
     .nesh h3 {
-      font-size: 20px;
     }
     .nesh h4 {
-      font-size: 16px;
     }
     .images{
         width: 100% !important;
@@ -316,8 +294,6 @@
         text-align: center;
       }
       .team-head{
-        font-size: 26px;
-        font-weight: 700;
         padding-top: 30px;
     }
 
@@ -328,14 +304,10 @@
     }
 
     .nesh h2{
-        font-size: 28px;
-        font-weight: 500;
     }
 
     .nesh h3{
         color: grey;
-        font-size: 22px;
-        font-weight: 700;
     }
 
     .nesh img{
@@ -355,7 +327,6 @@
     }
     .all h2{
         padding-bottom: 26px;
-        font-weight: 700;
     }
 
 }
