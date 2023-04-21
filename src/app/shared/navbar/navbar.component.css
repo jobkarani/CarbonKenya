@@ -31,7 +31,7 @@ header{
 
   .nav-logo {
     width: 20vw;
-    margin-top: 0;
+    margin-top: 5%;
     margin-left: 1%;
   }
   .nav-logo .logo {
@@ -54,16 +54,8 @@ header{
       text-decoration: none;
   }
 
-  .logg{
-      margin-left: 40%;
-      font-size:16px;
-      font-weight: 800;
-      font-family: 'add light italic';
-      color: #fff;
-      text-decoration: none;
-  }
-  
   .menu{
+    margin-top: 3%;
     padding: 20px 5%;
     justify-content: space-around;
     background:transparent;
@@ -120,7 +112,7 @@ header{
 
   .contact{
     margin-right: 5%;
-    margin-top: 30px;
+    margin-top: 3.5%;;
     width: 25%;
   }
 
@@ -133,8 +125,8 @@ header{
     text-align: center;
     padding: 10px 50px;
     border-radius: 10px;
-    background-color: rgb(17, 66, 17);
-    color: #fff;
+    background-color: rgb(173, 255, 47);
+    color: #000;
     font-size: 20px;
     text-decoration: none;
   }
@@ -153,7 +145,7 @@ header{
 
     .nav-logo {
       width: 40%;
-      margin-top: 0;
+      margin-top: 9%;
       margin-left: 2%;
       padding: 0 0;
     }
@@ -177,15 +169,6 @@ header{
         text-decoration: none;
     }
   
-    .logg{
-        margin-left: 90%;
-        font-size: 16px;
-        font-weight: 500;
-        font-family: 'add light';
-        color: #fff;
-        text-decoration: none;
-    }
-
     .img{
       margin-top: -5%;
     }
@@ -316,7 +299,7 @@ header{
 
     .nav-logo {
       width: 40%;
-      margin-top: -10%;
+      margin-top: -3%;
       margin-left: 2%;
       padding: 0 0;
     }
@@ -341,15 +324,6 @@ header{
         text-decoration: none;
     }
   
-    .logg{
-        margin-left: 105%;
-        font-size: 16px;
-        font-weight: 500;
-        font-family: 'add light';
-        color: #fff;
-        text-decoration: none;
-    }
-
     .img{
       margin-top: -15%;
     }

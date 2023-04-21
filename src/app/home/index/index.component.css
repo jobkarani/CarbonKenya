@@ -67,9 +67,21 @@ app-navbar{
     padding: 10px 30px;
 }
 
-.ones img{
-    height: 22vh;
-    width: 10vw;
+.ones i{
+    margin: 5%;
+}
+
+.hand i{
+    color: brown;
+    font-size: 100px;
+}
+.icon i{
+    color: orange;
+    font-size: 100px;
+}
+.cash i{
+    color: purple;
+    font-size: 100px;
 }
 .ones .h3{
     padding: 10px 0;
@@ -114,7 +126,7 @@ app-navbar{
     padding: 10px 0;
 }
 .work-2{
-    /* padding: 0 5%; */
+    padding: 0 5%;
     width: 100%;
     display: -ms-grid;
     display: grid;
@@ -129,7 +141,7 @@ app-navbar{
 }
 .work-2 .A{
     text-align: center;
-    color:yellowgreen ;
+    color:orange;
     line-height: 24.4px;
     letter-spacing: 0.16px;
 }

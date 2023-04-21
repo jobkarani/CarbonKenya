@@ -47,8 +47,15 @@ ul {
 }
 .footer-logo {
   margin-bottom: 0;
+  display: flex;
 }
-.footer-logo a {
+.img img{
+  width: 5vw;
+}
+.footer-logo .a{
+  margin-top: 8%;
+}
+.footer-logo .a a {
     font-size: 28px;
     font-weight: 800;
     font-family: 'add light';
@@ -59,7 +66,7 @@ ul {
     text-decoration: none;
     font-weight: 600;
 }
-.footer-logo a span{
+.footer-logo .a a span{
     font-size: 28px;
     font-weight: 800;
     font-family: 'add light';
@@ -196,6 +203,18 @@ ul {
 }
 
 @media only screen and (max-width: 850px) {
+  .footer-logo .a{
+    margin-top: 2%;
+  }
+  .img{
+    margin-top: -5%;
+  }
+  
+  .img img{
+    width: 10vw;
+    height: 8vh;
+  }
+
   .single-cta i {
     color: #8E3200;
     font-size: 20px;
@@ -215,6 +234,19 @@ ul {
 @media only screen and (max-width: 500px) {
   .footer-section {
     padding: 0 5%;
+  }
+
+  .img{
+    margin-top: -4%;
+  }
+  
+  .img img{
+    width: 15vw;
+    height: 10vh;
+  }
+
+  .footer-logo .a{
+    margin-top: 7%;
   }
 
   .footer-logo a {
