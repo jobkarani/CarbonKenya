@@ -14,11 +14,12 @@ header{
   }
 
   .flexa{
-    width: 60%;
+    width: 50%;
     margin-top: 5px;
   }
 
   .logos{
+    width: 25%;
     display: flex;
     padding-left: 2%;
     padding-top: 20px;
