@@ -141,6 +141,7 @@ app-navbar{
     width: 100%;
 }
 .work-2 .A{
+    text-transform: capitalize;
     text-align: center;
     color:orange;
     line-height: 24.4px;
