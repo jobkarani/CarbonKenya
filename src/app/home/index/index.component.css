@@ -131,8 +131,8 @@ app-navbar{
     width: 100%;
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (450px);
-    grid-template-columns: repeat(3, 450px);
+    -ms-grid-columns: (400px);
+    grid-template-columns: repeat(3, 400px);
     justify-content: center;
     grid-gap: 15px;
 }
