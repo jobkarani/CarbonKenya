@@ -22,7 +22,6 @@ ul {
 .cta-text h4 {
   color: #8E3200;
   font-size: 20px;
-  font-family: 'Add';
   line-height: 18px;
   letter-spacing: 2px; 
   font-weight:500;
@@ -58,7 +57,6 @@ ul {
 .footer-logo .a a {
     font-size: 28px;
     font-weight: 800;
-    font-family: 'add light';
     letter-spacing: 1.16px;
     line-height: 3.28px;
     font-style: italic;
@@ -69,7 +67,6 @@ ul {
 .footer-logo .a a span{
     font-size: 28px;
     font-weight: 800;
-    font-family: 'add light';
     letter-spacing: 1.16px;
     line-height: 3.28px;
     font-style: italic;
@@ -86,7 +83,6 @@ ul {
   color: #d9ede6;
   display: block;
   font-size: 24px;
-  font-family: 'Add';
   line-height: 18px;
   letter-spacing: 2px; 
   font-weight: 800;
@@ -195,7 +191,6 @@ ul {
   font-size: 24px;
   font-weight: 800;
   color: #fff;
-  font-family: 'Add';
   line-height: 18px;
   letter-spacing: 2px; 
   margin-bottom: 40px;
@@ -252,7 +247,6 @@ ul {
   .footer-logo a {
     font-size: 24px;
     font-weight: 800;
-    font-family: 'add light';
     letter-spacing: 1.16px;
     line-height: 3.28px;
   }
@@ -260,7 +254,6 @@ ul {
   .footer-logo a span{
     font-size: 24px;
     font-weight: 800;
-    font-family: 'add light';
     letter-spacing: 1.16px;
     line-height: 3.28px;
     font-style: italic;

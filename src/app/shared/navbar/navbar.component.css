@@ -10,7 +10,6 @@ header{
     min-width: 100%;
     display: flex;
     width: 100%;
-    
   }
 
   .flexa{
@@ -38,7 +37,6 @@ header{
   .nav-logo .logo {
       font-size: 28px;
       font-weight: 800;
-      font-family: 'add light';
       letter-spacing: 1.16px;
       font-style: italic;
       color: yellowgreen;
@@ -48,7 +46,6 @@ header{
   .nav-logo .logo span{
       font-size: 28px;
       font-weight: 800;
-      font-family: 'add light';
       letter-spacing: 1.16px;
       font-style: italic;
       color: #d9ede6;
@@ -153,7 +150,6 @@ header{
     .nav-logo .logo {
         font-size: 20px;
         font-weight: 800;
-        font-family: 'add light';
         letter-spacing: 1.16px;
         font-style: italic;
         color: yellowgreen;
@@ -163,7 +159,6 @@ header{
     .nav-logo .logo span{
         font-size: 20px;
         font-weight: 800;
-        font-family: 'add light';
         letter-spacing: 1.16px;
         font-style: italic;
         color: #d9ede6;
@@ -280,7 +275,6 @@ header{
       color: #fff;
       font-size: 20px;
       text-transform: capitalize;
-      font-family: 'Times New Roman', Times, serif;
     }
   }
   
@@ -308,7 +302,6 @@ header{
     .nav-logo .logo {
         font-size: 20px;
         font-weight: 800;
-        font-family: 'add light';
         letter-spacing: 1.16px;
         font-style: italic;
         color: yellowgreen;
@@ -318,7 +311,6 @@ header{
     .nav-logo .logo span{
         font-size: 20px;
         font-weight: 800;
-        font-family: 'add light';
         letter-spacing: 1.16px;
         font-style: italic;
         color: #d9ede6;
@@ -373,7 +365,6 @@ header{
     .nav-link{
       color: #fff;
       text-transform: capitalize;
-      font-family: 'Times New Roman', Times, serif;
     }
   
     .menu-icon{
@@ -432,7 +423,5 @@ header{
       color: #fff;
       font-size: 20px;
       text-transform: capitalize;
-      font-family: 'Times New Roman', Times, serif;
     }
-    
   }
